@@ -44,6 +44,35 @@
       </b-carousel-slide>
     </b-carousel>
   </div>
+
+  <div class="container1">
+    <div class="card1">
+      <img src="https://sm.ign.com/t/ign_br/slotter/default/635655082846943146-cdzbueiuuaatgqb_q1f5.560.png" alt="" height="490px" width="300px">
+      <p>Coringa de Jared Leto voltará em Snyder Cut de Liga da Justiça</p>
+    </div>
+
+    <div class="card2">
+      <img src="https://sm.ign.com/t/ign_br/slotter/default/cp77-1920x1080-en-1583665789_v5es.560.jpg" alt="" height="490px" width="300px">
+      <p>Cyberpunk 2077: Lançamento, multiplayer, história, gameplay e mais</p>
+    </div>
+    <div class="card3">
+      <img src="https://sm.ign.com/t/ign_br/slotter/default/crown-tundra-home_puba.560.png" alt="" height="490px" width="300px">
+      <p>Pokémon Sword & Shield: Tudo sobre The Crown Tundra</p>
+    </div>
+    <div class="card4">
+      <img src="https://sm.ign.com/t/ign_br/slotter/default/579b91e2b08074561cf3b8073878f301_stxy.560.png" alt="" height="490px" width="300px">
+      <p>Netflix: As estreias de filmes e séries em novembro</p>
+    </div>
+    <div class="card5">
+      <img src="https://assets1.ignimgs.com/2020/10/21/falcon-deck-1603300057588.png?fit=crop&width=282&height=470" alt="" height="490px" width="300px">
+      <p>De volta alguns dos personagens MCU 'mais antigos'</p>
+    </div>
+      <div class="card6">
+      <img src="https://assets1.ignimgs.com/2020/10/21/aoc-deck-1603308225333.jpg?fit=crop&width=282&height=470" alt="" height="490px" width="300px">
+      <p>Twitch Stream da AOC tem implicações para a política dos EUA</p>
+    </div>
+  </div>
+
   </div>
 </template>
 
@@ -65,3 +94,161 @@
     }
   }
 </script>
+
+<style>
+@import "../assets/css/estilo.scss";
+.container1{
+    display: grid;
+    grid-template-columns: repeat(7 ,1fr);
+    grid-template-rows: repeat(4, 1fr);
+    padding-top: 10px;
+    grid-gap: 10px;
+}
+
+.card1{
+  grid-column: 2/2;
+  grid-row: 1/3;
+  background-color: #cecece;
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 10px;
+  height: 690px;
+}
+
+.card1:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.card1 img{
+  border-radius: 10px;
+}
+
+.card1 p{
+  font-size: 30px;
+  font-weight: bold;
+}
+
+
+.card2{
+  grid-column: 4/4;
+  grid-row: 1/3;
+  background-color: #cecece;
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 10px;
+  height: 690px;
+}
+
+.card2:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.card2 img{
+  border-radius: 10px;
+}
+
+.card2 p{
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.card3{
+  grid-column: 6/6;
+  grid-row: 1/3;
+  background-color: #cecece;
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 10px;
+  height: 690px;
+}
+
+.card3:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.card3 img{
+  border-radius: 10px;
+}
+
+.card3 p{
+  font-size: 30px;
+  font-weight: bold;
+}
+
+
+.card4{
+  grid-column: 2/2;
+  grid-row: 3/6;
+  background-color: #cecece;
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 10px;
+  height: 690px;
+}
+
+.card4:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.card4 img{
+  border-radius: 10px;
+}
+
+.card4 p{
+  font-size: 30px;
+  font-weight: bold;
+}
+
+
+.card5{
+  grid-column: 4/4;
+  grid-row: 3/6;
+  background-color: #cecece;
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 10px;
+  height: 690px;
+}
+
+.card5:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.card5 img{
+  border-radius: 10px;
+}
+
+.card5 p{
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.card6{
+  grid-column: 6/6;
+  grid-row: 3/6;
+  background-color: #cecece;
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 10px;
+  height: 690px;
+}
+
+.card6:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.card6 img{
+  border-radius: 10px;
+}
+
+.card6 p{
+  font-size: 30px;
+  font-weight: bold;
+}
+</style>
