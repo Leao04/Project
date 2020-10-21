@@ -82,15 +82,15 @@
 
 .rodape {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  grid-template-rows: repeat(4, 1fr);
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(11, 1fr);
   background-color: #e79d12;
 }
 
 .consoles a {
   grid-column: 1/1;
   grid-row: 1/1;
-  font-size: 20px;
+  font-size: 25px;
   text-decoration: none;
   color: black;
   padding-left: 10px;
@@ -118,13 +118,90 @@
   color: black;
 }
 
-.nintendo {
+.nintendo2 {
   padding-left: 15px;
   grid-column: 1/1;
   grid-row: 4/4;
 }
 
-.nintendo a {
+.nintendo2 a {
+  text-decoration: none;
+  color: black;
+}
+
+.nintendo3 {
+  padding-left: 15px;
+  grid-column: 1/1;
+  grid-row: 5/5;
+}
+
+.nintendo3 a {
+  text-decoration: none;
+  color: black;
+}
+
+.computador2 {
+  padding-left: 15px;
+  grid-column: 1/1;
+  grid-row: 6/6;
+}
+
+.computador2 a {
+  text-decoration: none;
+  color: black;
+}
+
+.plays {
+  padding-left: 15px;
+  grid-column: 1/1;
+  grid-row: 7/7;
+}
+
+.plays a {
+  text-decoration: none;
+  color: black;
+}
+
+.xbox2 {
+  padding-left: 15px;
+  grid-column: 1/1;
+  grid-row: 8/8;
+}
+
+.xbox2 a {
+  text-decoration: none;
+  color: black;
+}
+
+.nintendo4 {
+  padding-left: 15px;
+  grid-column: 1/1;
+  grid-row: 9/9;
+}
+
+.nintendo4 a {
+  text-decoration: none;
+  color: black;
+}
+
+.playss {
+  padding-left: 15px;
+  grid-column: 1/1;
+  grid-row: 10/10;
+}
+
+.playss a {
+  text-decoration: none;
+  color: black;
+}
+
+.mobile {
+  padding-left: 15px;
+  grid-column: 1/1;
+  grid-row: 11/11;
+}
+
+.mobile a {
   text-decoration: none;
   color: black;
 }
