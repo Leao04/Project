@@ -6,7 +6,13 @@
           </div>
           <div class="xbox">
             <nuxt-link to="/">Xbox One</nuxt-link>
-            </div>          
+            </div>   
+            <div class="play">
+                <nuxt-link to="/">Playstation 4</nuxt-link>
+                </div>       
+                <div class="nintendo">
+                    <nuxt-link to="/">Wii U</nuxt-link>
+                </div>
       </div>
   </div>
 </template>

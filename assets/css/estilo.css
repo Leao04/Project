@@ -99,7 +99,32 @@
 .xbox a {
   text-decoration: none;
   color: black;
+}
+
+.xbox {
   padding-left: 15px;
   grid-column: 1/1;
   grid-row: 2/2;
+}
+
+.play {
+  padding-left: 15px;
+  grid-column: 1/1;
+  grid-row: 3/3;
+}
+
+.play a {
+  text-decoration: none;
+  color: black;
+}
+
+.nintendo {
+  padding-left: 15px;
+  grid-column: 1/1;
+  grid-row: 4/4;
+}
+
+.nintendo a {
+  text-decoration: none;
+  color: black;
 }
