@@ -1,6 +1,10 @@
 <template>
   <div>
-      <div class="rodape"></div>
+      <div class="rodape">
+          <div class="consoles">
+              <nuxt-link to="/">Consoles</nuxt-link>
+          </div>
+      </div>
   </div>
 </template>
 
