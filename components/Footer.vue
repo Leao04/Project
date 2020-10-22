@@ -91,7 +91,7 @@
             </div>
       </div>
       <div class="final">
-          <p>©FATEC - todos os direitos reservados</p>
+          <p>©FATEC - Todos os direitos reservados</p>
       </div>
   </div>
 </template>

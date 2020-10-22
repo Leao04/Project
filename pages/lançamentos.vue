@@ -1,9 +1,8 @@
 <template>
 <div>
-    <div class="titulo">
+    <div class="titulo2">
     <p>Os lançamentos da semana para PS4, Xbox One, Switch e PC</p>
     </div>
-
 </div>
 </template>
 
