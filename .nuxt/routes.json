@@ -1,16 +1,23 @@
 [
   {
+    "name": "lançamentos",
+    "path": "/lançamentos",
+    "component": "C:\\\\Users\\\\lordv\\\\OneDrive\\\\Documentos\\\\GitHub\\\\Project\\\\pages\\\\lançamentos.vue",
+    "chunkName": "pages/lançamentos",
+    "_name": "_7fd51496"
+  },
+  {
     "name": "sony",
     "path": "/sony",
-    "component": "C:\\\\Users\\\\malve\\\\Documents\\\\GitHub\\\\Project\\\\pages\\\\sony.vue",
+    "component": "C:\\\\Users\\\\lordv\\\\OneDrive\\\\Documentos\\\\GitHub\\\\Project\\\\pages\\\\sony.vue",
     "chunkName": "pages/sony",
-    "_name": "_940ae08e"
+    "_name": "_7204d5d4"
   },
   {
     "name": "index",
     "path": "/",
-    "component": "C:\\\\Users\\\\malve\\\\Documents\\\\GitHub\\\\Project\\\\pages\\\\index.vue",
+    "component": "C:\\\\Users\\\\lordv\\\\OneDrive\\\\Documentos\\\\GitHub\\\\Project\\\\pages\\\\index.vue",
     "chunkName": "pages/index",
-    "_name": "_b0c683a0"
+    "_name": "_920b371a"
   }
 ]

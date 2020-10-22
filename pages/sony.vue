@@ -45,7 +45,7 @@
     <div class="containerSony">
         
     <div class="cardsony1">
-        <nuxt-link to="/">
+        <nuxt-link to="/lançamentos">
       <img src="https://sm.ign.com/t/ign_br/slotter/default/illust-crown-2x_1bwz.560.png" alt="" height="490px" width="300px">
       <p>Os lançamentos da semana para PS4, Xbox One, Switch e PC</p>
       </nuxt-link>
