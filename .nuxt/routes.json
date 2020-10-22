@@ -1,9 +1,16 @@
 [
   {
+    "name": "sony",
+    "path": "/sony",
+    "component": "C:\\\\Users\\\\malve\\\\Documents\\\\GitHub\\\\Project\\\\pages\\\\sony.vue",
+    "chunkName": "pages/sony",
+    "_name": "_940ae08e"
+  },
+  {
     "name": "index",
     "path": "/",
-    "component": "C:\\\\Users\\\\lordv\\\\OneDrive\\\\Documentos\\\\GitHub\\\\Project\\\\pages\\\\index.vue",
+    "component": "C:\\\\Users\\\\malve\\\\Documents\\\\GitHub\\\\Project\\\\pages\\\\index.vue",
     "chunkName": "pages/index",
-    "_name": "_920b371a"
+    "_name": "_b0c683a0"
   }
 ]
