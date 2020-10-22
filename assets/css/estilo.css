@@ -234,12 +234,6 @@
 }
 
 /*  Página Sony */
-.titulo {
-  font-size: 30px;
-  font-weight: bolder;
-  text-align: center;
-}
-
 .containerSony {
   display: grid;
   grid-template-columns: repeat(7, 1fr);
