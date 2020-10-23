@@ -1,23 +1,26 @@
 [
   {
+    "name": "genshin",
+    "path": "/genshin",
+    "component": "C:\\\\Users\\\\lordv\\\\OneDrive\\\\Documentos\\\\GitHub\\\\Project\\\\pages\\\\genshin.vue",
+    "chunkName": "pages/genshin"
+  },
+  {
     "name": "lançamentos",
     "path": "/lançamentos",
     "component": "C:\\\\Users\\\\lordv\\\\OneDrive\\\\Documentos\\\\GitHub\\\\Project\\\\pages\\\\lançamentos.vue",
-    "chunkName": "pages/lançamentos",
-    "_name": "_7fd51496"
+    "chunkName": "pages/lançamentos"
   },
   {
     "name": "sony",
     "path": "/sony",
     "component": "C:\\\\Users\\\\lordv\\\\OneDrive\\\\Documentos\\\\GitHub\\\\Project\\\\pages\\\\sony.vue",
-    "chunkName": "pages/sony",
-    "_name": "_7204d5d4"
+    "chunkName": "pages/sony"
   },
   {
     "name": "index",
     "path": "/",
     "component": "C:\\\\Users\\\\lordv\\\\OneDrive\\\\Documentos\\\\GitHub\\\\Project\\\\pages\\\\index.vue",
-    "chunkName": "pages/index",
-    "_name": "_920b371a"
+    "chunkName": "pages/index"
   }
 ]

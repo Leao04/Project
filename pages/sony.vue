@@ -51,7 +51,7 @@
       </nuxt-link>
     </div>
     <div class="cardsony2">
-        <nuxt-link to="/">
+        <nuxt-link to="/genshin">
       <img src="https://sm.ign.com/t/ign_br/slotter/default/amber-home_nqxt.560.png" alt="" height="490px" width="300px">
       <p>Genshin Impact: Como baixar e jogar o JRPG gacha do momento</p>
       </nuxt-link>
