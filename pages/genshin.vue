@@ -103,5 +103,6 @@ Aparelhos compatíveis: iPhone 8 Plus, iPhone X, iPhone XS, iPhone XS Max, iPhon
             HD: 30 GB de espaço de armazenamento.
         </li>
     </div>
+    <br>
 </div>
 </template>
