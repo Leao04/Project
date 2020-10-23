@@ -19,9 +19,27 @@ Segundo Thomas Grip, o diretor criativo do jogo, o jogo explora a ideia de "sobr
 
 A Frictional Games anunciou o Rebirth em 6 de março de 2020. O jogo foi lançado para Windows, Linux e PlayStation 4 em 20 de outubro de 2020.</p>
     </div>
-    <div>
-        <object data="https://www.youtube.com/watch?v=eWDzqUud3jU" width="560" height="315"></object>
+    <div class="video">
+        <video controls="controls" src="../assets/video/amnesia.mp4" height="400px" width="600px"></video>
     </div>
+    <br>
+    <br>
+    <div class="transformers">
+        <li>
+            23 de outubro: Transformers: Battlegrounds - PS4, Xbox One, Switch, PC
+        </li>
+        <p class="autobots">
+            O jogo do gênero de estratégia e táctica em turnos traz o melhor do gênero para uma das sagas mais conhecidas do mundo. O temível Megatron, líder dos Decepticons, novamente está prestes a capturar o Allspark, mas use toda sua tática e astúcia para eliminar todo o mal. Aproveitando cada ambiente que o jogo lhe proporcionar para sair vitorioso nessa guerra sem fim.
+
+Jogue solo ou modo multiplayer local e coloque suas habilidades estratégicas à prova em modalidades como Capture a Bandeira, Horda, Último Confronto e muito mais.
+
+Para os jogadores e jogadoras que decidirem embarcar na próxima geração de videogames, vale lembrar ainda que Transformers: Campos de Batalha também será jogável no PlayStation 5 e Xbox Series X via retrocompatibilidade. O jogo também está sendo lançado para o Nintendo Switch e PC via (steam).
+        </p>
+    </div>
+     <div class="video">
+        <video controls="controls" src="../assets/video/transformers.mp4" height="400px" width="600px"></video>
+    </div>
+    <br>
 </div>
 </template>
 
