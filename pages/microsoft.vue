@@ -3,6 +3,7 @@
     <div>
       <img
         src="../assets/img/xbox-controles.jpg"
+        img-w
         img-height="300px"
         alt="PlayStation 1, 2, 3 e 4"
       />
