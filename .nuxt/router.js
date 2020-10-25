@@ -3,10 +3,11 @@ import Router from 'vue-router'
 import { interopDefault } from './utils'
 import scrollBehavior from './router.scrollBehavior.js'
 
-const _9f69fa2a = () => interopDefault(import('..\\pages\\genshin.vue' /* webpackChunkName: "pages/genshin" */))
-const _7fd51496 = () => interopDefault(import('..\\pages\\lançamentos.vue' /* webpackChunkName: "pages/lançamentos" */))
-const _7204d5d4 = () => interopDefault(import('..\\pages\\sony.vue' /* webpackChunkName: "pages/sony" */))
-const _920b371a = () => interopDefault(import('..\\pages\\index.vue' /* webpackChunkName: "pages/index" */))
+const _01bde168 = () => interopDefault(import('..\\pages\\genshin.vue' /* webpackChunkName: "pages/genshin" */))
+const _078a6c93 = () => interopDefault(import('..\\pages\\lançamentos.vue' /* webpackChunkName: "pages/lançamentos" */))
+const _d329f568 = () => interopDefault(import('..\\pages\\microsoft.vue' /* webpackChunkName: "pages/microsoft" */))
+const _940ae08e = () => interopDefault(import('..\\pages\\sony.vue' /* webpackChunkName: "pages/sony" */))
+const _b0c683a0 = () => interopDefault(import('..\\pages\\index.vue' /* webpackChunkName: "pages/index" */))
 
 // TODO: remove in Nuxt 3
 const emptyFn = () => {}
@@ -26,19 +27,23 @@ export const routerOptions = {
 
   routes: [{
     path: "/genshin",
-    component: _9f69fa2a,
+    component: _01bde168,
     name: "genshin"
   }, {
     path: "/lançamentos",
-    component: _7fd51496,
+    component: _078a6c93,
     name: "lançamentos"
   }, {
+    path: "/microsoft",
+    component: _d329f568,
+    name: "microsoft"
+  }, {
     path: "/sony",
-    component: _7204d5d4,
+    component: _940ae08e,
     name: "sony"
   }, {
     path: "/",
-    component: _920b371a,
+    component: _b0c683a0,
     name: "index"
   }],
 

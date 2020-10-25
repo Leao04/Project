@@ -2,25 +2,36 @@
   {
     "name": "genshin",
     "path": "/genshin",
-    "component": "C:\\\\Users\\\\lordv\\\\OneDrive\\\\Documentos\\\\GitHub\\\\Project\\\\pages\\\\genshin.vue",
-    "chunkName": "pages/genshin"
+    "component": "C:\\\\Users\\\\malve\\\\Documents\\\\GitHub\\\\Project\\\\pages\\\\genshin.vue",
+    "chunkName": "pages/genshin",
+    "_name": "_01bde168"
   },
   {
     "name": "lançamentos",
     "path": "/lançamentos",
-    "component": "C:\\\\Users\\\\lordv\\\\OneDrive\\\\Documentos\\\\GitHub\\\\Project\\\\pages\\\\lançamentos.vue",
-    "chunkName": "pages/lançamentos"
+    "component": "C:\\\\Users\\\\malve\\\\Documents\\\\GitHub\\\\Project\\\\pages\\\\lançamentos.vue",
+    "chunkName": "pages/lançamentos",
+    "_name": "_078a6c93"
+  },
+  {
+    "name": "microsoft",
+    "path": "/microsoft",
+    "component": "C:\\\\Users\\\\malve\\\\Documents\\\\GitHub\\\\Project\\\\pages\\\\microsoft.vue",
+    "chunkName": "pages/microsoft",
+    "_name": "_d329f568"
   },
   {
     "name": "sony",
     "path": "/sony",
-    "component": "C:\\\\Users\\\\lordv\\\\OneDrive\\\\Documentos\\\\GitHub\\\\Project\\\\pages\\\\sony.vue",
-    "chunkName": "pages/sony"
+    "component": "C:\\\\Users\\\\malve\\\\Documents\\\\GitHub\\\\Project\\\\pages\\\\sony.vue",
+    "chunkName": "pages/sony",
+    "_name": "_940ae08e"
   },
   {
     "name": "index",
     "path": "/",
-    "component": "C:\\\\Users\\\\lordv\\\\OneDrive\\\\Documentos\\\\GitHub\\\\Project\\\\pages\\\\index.vue",
-    "chunkName": "pages/index"
+    "component": "C:\\\\Users\\\\malve\\\\Documents\\\\GitHub\\\\Project\\\\pages\\\\index.vue",
+    "chunkName": "pages/index",
+    "_name": "_b0c683a0"
   }
 ]

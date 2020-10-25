@@ -2,10 +2,9 @@
   <div>
     <div>
       <img
-        src="https://cdn.ome.lt/IUS9RucXlM7uyNyqr0n8Xo7n1iw=/970x360/smart/uploads/conteudo/fotos/playstation-familia.jpg"
+        src="../assets/img/xbox-controles.jpg"
+        img-height="300px"
         alt="PlayStation 1, 2, 3 e 4"
-        width="100%"
-        height="40%"
       />
     </div>
     <div>
