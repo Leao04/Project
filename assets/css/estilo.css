@@ -852,3 +852,27 @@
   padding-left: 45px;
   font-size: 20px;
 }
+
+.CardsJuntos {
+  display: flex;
+  justify-content: center;
+  padding-top: 3%;
+}
+
+.CardsJuntos a {
+  text-decoration: none;
+  color: black;
+}
+
+.together {
+  display: flex;
+}
+
+.h6 {
+  font-size: 20px;
+}
+
+.cardmade {
+  padding-left: 400px;
+  padding-bottom: 10px;
+}

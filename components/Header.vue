@@ -14,7 +14,7 @@
         <nuxt-link to="/sony">Sony</nuxt-link>
       </div>
       <div class="microsoft">
-        <nuxt-link to="/">Microsoft</nuxt-link>
+        <nuxt-link to="/microsoft">Microsoft</nuxt-link>
       </div>
       <div class="nintendo">
         <nuxt-link to="/">Nintendo</nuxt-link>
