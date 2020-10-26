@@ -141,6 +141,7 @@
             </b-row>
           </b-card>
         </div>
+        <br />
         <div>
           <b-card no-body class="overflow-hidden" style="max-width: 540px">
             <b-row no-gutters>
@@ -158,12 +159,43 @@
                   <b-card-text>
                     Saiba tudo sobre o RPG da CD Projekt Red e o futuro
                     cibernético distópico que nos aguarda.
+                    <nuxt-link to="">Leia mais aqui</nuxt-link>
                   </b-card-text>
                 </b-card-body>
               </b-col>
             </b-row>
           </b-card>
         </div>
+        <br />
+        <div>
+          <div>
+            <b-card no-body class="overflow-hidden" style="max-width: 540px">
+              <b-row no-gutters>
+                <b-col md="6">
+                  <b-card-img
+                    src="../assets/img/apresentadora.jpg"
+                    alt="Image"
+                    class="rounded-0"
+                  ></b-card-img>
+                </b-col>
+                <b-col md="6">
+                  <b-card-body
+                    title="Apresentadora do Xbox Brasil é demitida após ataques da comunidade"
+                  >
+                    <b-card-text>
+                      No Twitter, Isadora Basile relata que sofreu diversas
+                      perseguições nos últimos meses e explica a situação: "A
+                      Microsoft encontrou como melhor opção me desligar do cargo
+                      de apresentadora".
+                      <nuxt-link to="">Leia mais aqui</nuxt-link>
+                    </b-card-text>
+                  </b-card-body>
+                </b-col>
+              </b-row>
+            </b-card>
+          </div>
+        </div>
+        <br />
       </div>
     </div>
   </div>
