@@ -23,7 +23,7 @@
                   ></b-card-img>
                 </b-col>
                 <b-col md="6">
-                  <b-card-body title="Horizontal Card">
+                  <b-card-body title="Lançamentos">
                     <b-card-text>
                       Xbox Series X Lista de Jogos de Lançamento - Resoluções e
                       Framerates

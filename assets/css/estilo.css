@@ -875,4 +875,34 @@
 .introduction {
   font-size: 20px;
   font-weight: bolder;
+  padding-left: 30px;
+}
+
+.J {
+  color: red;
+  font-size: 25px;
+}
+
+.intension {
+  padding-left: 30px;
+}
+
+.analise {
+  color: red;
+  font-size: 25px;
+  font-weight: bolder;
+}
+
+.piologo {
+  padding-bottom: 60px;
+}
+
+.dez {
+  font-size: 25px;
+  padding-left: 30px;
+}
+
+.destaques {
+  padding-left: 30px;
+  font-size: 20px;
 }
