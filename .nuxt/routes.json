@@ -28,6 +28,13 @@
     "_name": "_7fd51496"
   },
   {
+    "name": "logado",
+    "path": "/logado",
+    "component": "C:\\\\Users\\\\lordv\\\\OneDrive\\\\Documentos\\\\GitHub\\\\Project\\\\pages\\\\logado.vue",
+    "chunkName": "pages/logado",
+    "_name": "_426046d2"
+  },
+  {
     "name": "login",
     "path": "/login",
     "component": "C:\\\\Users\\\\lordv\\\\OneDrive\\\\Documentos\\\\GitHub\\\\Project\\\\pages\\\\login.vue",

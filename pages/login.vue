@@ -7,30 +7,30 @@
 </template>
 
 <script>
-import { mapActions } from "vuex";
+import { mapActions } from 'vuex'
 export default {
   data() {
     return {
-      email: "",
-      password: "",
-    };
+      email: '',
+      password: '',
+    }
   },
   methods: {
     ...mapActions({
-      setUser: "user/setUser",
+      setUser: 'user/setUser',
     }),
     loginUser() {
       if (
-        this.email === "lordvergil12345@outlook.com" &&
-        this.password === "123"
+        this.email === 'lordvergil12345@outlook.com' &&
+        this.password === '123'
       ) {
         this.setUser({
           login: this.email,
           password: this.password,
-        });
-        this.$router.push("/criar-post");
+        })
+        this.$router.push('/logado')
       }
     },
   },
-};
+}
 </script>
