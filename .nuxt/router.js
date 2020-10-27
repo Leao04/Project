@@ -3,9 +3,11 @@ import Router from 'vue-router'
 import { interopDefault } from './utils'
 import scrollBehavior from './router.scrollBehavior.js'
 
+const _6393e6d1 = () => interopDefault(import('..\\pages\\criar-post.vue' /* webpackChunkName: "pages/criar-post" */))
 const _9eff2dcc = () => interopDefault(import('..\\pages\\desconto.vue' /* webpackChunkName: "pages/desconto" */))
 const _9f69fa2a = () => interopDefault(import('..\\pages\\genshin.vue' /* webpackChunkName: "pages/genshin" */))
 const _7fd51496 = () => interopDefault(import('..\\pages\\lançamentos.vue' /* webpackChunkName: "pages/lançamentos" */))
+const _febbf0ec = () => interopDefault(import('..\\pages\\login.vue' /* webpackChunkName: "pages/login" */))
 const _53945be2 = () => interopDefault(import('..\\pages\\microsoft.vue' /* webpackChunkName: "pages/microsoft" */))
 const _7204d5d4 = () => interopDefault(import('..\\pages\\sony.vue' /* webpackChunkName: "pages/sony" */))
 const _920b371a = () => interopDefault(import('..\\pages\\index.vue' /* webpackChunkName: "pages/index" */))
@@ -27,6 +29,10 @@ export const routerOptions = {
   scrollBehavior,
 
   routes: [{
+    path: "/criar-post",
+    component: _6393e6d1,
+    name: "criar-post"
+  }, {
     path: "/desconto",
     component: _9eff2dcc,
     name: "desconto"
@@ -38,6 +44,10 @@ export const routerOptions = {
     path: "/lançamentos",
     component: _7fd51496,
     name: "lançamentos"
+  }, {
+    path: "/login",
+    component: _febbf0ec,
+    name: "login"
   }, {
     path: "/microsoft",
     component: _53945be2,

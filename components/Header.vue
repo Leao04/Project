@@ -41,8 +41,10 @@
         </div>
       </div>
       <div class="login">
-        <b-button variant="outline-primary">Login</b-button>
-        <b-button variant="outline-primary">Login</b-button>
+        <nuxt-link to="/login">
+          <b-button variant="outline-primary">Login</b-button>
+        </nuxt-link>
+        <b-button variant="outline-primary">Sair</b-button>
       </div>
     </div>
   </div>

@@ -21,14 +21,14 @@ export default {
     }),
     loginUser() {
       if (
-        this.email === "erick.petrucelli@fatectq.edu.br" &&
+        this.email === "lordvergil12345@outlook.com" &&
         this.password === "123"
       ) {
         this.setUser({
           login: this.email,
           password: this.password,
         });
-        this.$router.push("/");
+        this.$router.push("/criar-post");
       }
     },
   },

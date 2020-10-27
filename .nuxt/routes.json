@@ -1,5 +1,12 @@
 [
   {
+    "name": "criar-post",
+    "path": "/criar-post",
+    "component": "C:\\\\Users\\\\lordv\\\\OneDrive\\\\Documentos\\\\GitHub\\\\Project\\\\pages\\\\criar-post.vue",
+    "chunkName": "pages/criar-post",
+    "_name": "_6393e6d1"
+  },
+  {
     "name": "desconto",
     "path": "/desconto",
     "component": "C:\\\\Users\\\\lordv\\\\OneDrive\\\\Documentos\\\\GitHub\\\\Project\\\\pages\\\\desconto.vue",
@@ -19,6 +26,13 @@
     "component": "C:\\\\Users\\\\lordv\\\\OneDrive\\\\Documentos\\\\GitHub\\\\Project\\\\pages\\\\lançamentos.vue",
     "chunkName": "pages/lançamentos",
     "_name": "_7fd51496"
+  },
+  {
+    "name": "login",
+    "path": "/login",
+    "component": "C:\\\\Users\\\\lordv\\\\OneDrive\\\\Documentos\\\\GitHub\\\\Project\\\\pages\\\\login.vue",
+    "chunkName": "pages/login",
+    "_name": "_febbf0ec"
   },
   {
     "name": "microsoft",

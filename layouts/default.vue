@@ -7,20 +7,56 @@
 </template>
 
 <script>
-import Header from "../components/Header"
-import Footer from '../components/Footer'
+import { mapState, mapActions } from "vuex";
+import Header from "../components/Header";
+import Footer from "../components/Footer";
 export default {
-  components:{
+  components: {
     Header,
     Footer,
-  }
-}
+  },
+  data() {
+    return {
+      items: [
+        {
+          title: "Home",
+          icon: "home",
+          to: { name: "index" },
+        },
+        {
+          title: "Inspire",
+          icon: "lightbulb",
+          to: { name: "inspire" },
+        },
+        {
+          title: "Criar Post",
+          icon: "plus",
+          to: { name: "criar-post" },
+        },
+      ],
+    };
+  },
+  computed: {
+    ...mapState({
+      login: (state) => state.user.login,
+    }),
+  },
+  methods: {
+    ...mapActions({
+      clearUser: "user/clearUser",
+    }),
+
+    logout() {
+      this.clearUser();
+    },
+  },
+};
 </script>
 
 <style>
 html {
-  font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI',
-    Roboto, 'Helvetica Neue', Arial, sans-serif;
+  font-family: "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, sans-serif;
   font-size: 16px;
   word-spacing: 1px;
   -ms-text-size-adjust: 100%;
