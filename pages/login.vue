@@ -1,9 +1,15 @@
 <template>
-  <form @submit.prevent="loginUser">
-    <input v-model="email" type="email" placeholder="E-mail" />
-    <input v-model="password" type="password" placeholder="Senha" />
-    <button>Acessar</button>
-  </form>
+  <div>
+    <hr />
+    <div class="form">
+      <form @submit.prevent="loginUser">
+        <input v-model="email" type="email" placeholder="E-mail" />
+        <input v-model="password" type="password" placeholder="Senha" />
+        <button>Acessar</button>
+      </form>
+    </div>
+    <br />
+  </div>
 </template>
 
 <script>
@@ -28,7 +34,7 @@ export default {
           login: this.email,
           password: this.password,
         })
-        this.$router.push('/logado')
+        this.$router.push('/')
       }
     },
   },
