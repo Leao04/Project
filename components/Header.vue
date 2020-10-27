@@ -42,6 +42,7 @@
       </div>
       <div class="login">
         <b-button variant="outline-primary">Login</b-button>
+        <b-button variant="outline-primary">Login</b-button>
       </div>
     </div>
   </div>
