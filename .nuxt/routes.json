@@ -2,70 +2,71 @@
   {
     "name": "criar-post",
     "path": "/criar-post",
-    "component": "C:\\\\Users\\\\ViniciusLanghi\\\\Documents\\\\GitHub\\\\Project\\\\pages\\\\criar-post.vue",
+    "component": "C:\\\\Users\\\\lordv\\\\OneDrive\\\\Documentos\\\\GitHub\\\\Project\\\\pages\\\\criar-post.vue",
     "chunkName": "pages/criar-post",
-    "_name": "_90dda0f8"
+    "_name": "_6393e6d1"
   },
   {
     "name": "desconto",
     "path": "/desconto",
-    "component": "C:\\\\Users\\\\ViniciusLanghi\\\\Documents\\\\GitHub\\\\Project\\\\pages\\\\desconto.vue",
+    "component": "C:\\\\Users\\\\lordv\\\\OneDrive\\\\Documentos\\\\GitHub\\\\Project\\\\pages\\\\desconto.vue",
     "chunkName": "pages/desconto",
-    "_name": "_5ee37ae6"
+    "_name": "_9eff2dcc"
   },
   {
     "name": "genshin",
     "path": "/genshin",
-    "component": "C:\\\\Users\\\\ViniciusLanghi\\\\Documents\\\\GitHub\\\\Project\\\\pages\\\\genshin.vue",
+    "component": "C:\\\\Users\\\\lordv\\\\OneDrive\\\\Documentos\\\\GitHub\\\\Project\\\\pages\\\\genshin.vue",
     "chunkName": "pages/genshin",
-    "_name": "_2d32af18"
+    "_name": "_9f69fa2a"
   },
   {
     "name": "lançamentos",
     "path": "/lançamentos",
-    "component": "C:\\\\Users\\\\ViniciusLanghi\\\\Documents\\\\GitHub\\\\Project\\\\pages\\\\lançamentos.vue",
+    "component": "C:\\\\Users\\\\lordv\\\\OneDrive\\\\Documentos\\\\GitHub\\\\Project\\\\pages\\\\lançamentos.vue",
     "chunkName": "pages/lançamentos",
-    "_name": "_a8fe3b7a"
+    "_name": "_7fd51496"
   },
   {
     "name": "logado",
     "path": "/logado",
-    "component": "C:\\\\Users\\\\ViniciusLanghi\\\\Documents\\\\GitHub\\\\Project\\\\pages\\\\logado.vue",
+    "component": "C:\\\\Users\\\\lordv\\\\OneDrive\\\\Documentos\\\\GitHub\\\\Project\\\\pages\\\\logado.vue",
     "chunkName": "pages/logado",
-    "_name": "_1949126c"
+    "_name": "_426046d2"
   },
   {
     "name": "login",
     "path": "/login",
-    "component": "C:\\\\Users\\\\ViniciusLanghi\\\\Documents\\\\GitHub\\\\Project\\\\pages\\\\login.vue",
+    "component": "C:\\\\Users\\\\lordv\\\\OneDrive\\\\Documentos\\\\GitHub\\\\Project\\\\pages\\\\login.vue",
     "chunkName": "pages/login",
-    "_name": "_15f0daf7"
+    "_name": "_febbf0ec"
   },
   {
     "name": "microsoft",
     "path": "/microsoft",
-    "component": "C:\\\\Users\\\\ViniciusLanghi\\\\Documents\\\\GitHub\\\\Project\\\\pages\\\\microsoft.vue",
+    "component": "C:\\\\Users\\\\lordv\\\\OneDrive\\\\Documentos\\\\GitHub\\\\Project\\\\pages\\\\microsoft.vue",
     "chunkName": "pages/microsoft",
-    "_name": "_9039b208"
+    "_name": "_53945be2"
   },
   {
     "name": "sony",
     "path": "/sony",
-    "component": "C:\\\\Users\\\\ViniciusLanghi\\\\Documents\\\\GitHub\\\\Project\\\\pages\\\\sony.vue",
+    "component": "C:\\\\Users\\\\lordv\\\\OneDrive\\\\Documentos\\\\GitHub\\\\Project\\\\pages\\\\sony.vue",
     "chunkName": "pages/sony",
-    "_name": "_dbffbfee"
+    "_name": "_7204d5d4"
   },
   {
     "name": "post-id",
     "path": "/post/:id?",
     "component": "C:\\\\Users\\\\lordv\\\\OneDrive\\\\Documentos\\\\GitHub\\\\Project\\\\pages\\\\post\\\\_id.vue",
-    "chunkName": "pages/post/_id"
+    "chunkName": "pages/post/_id",
+    "_name": "_6650ecbb"
   },
   {
     "name": "index",
     "path": "/",
-    "component": "C:\\\\Users\\\\ViniciusLanghi\\\\Documents\\\\GitHub\\\\Project\\\\pages\\\\index.vue",
+    "component": "C:\\\\Users\\\\lordv\\\\OneDrive\\\\Documentos\\\\GitHub\\\\Project\\\\pages\\\\index.vue",
     "chunkName": "pages/index",
-    "_name": "_4c4937e0"
+    "_name": "_920b371a"
   }
 ]
