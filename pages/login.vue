@@ -34,7 +34,7 @@ export default {
           login: this.email,
           password: this.password,
         })
-        this.$router.push('/criar-post')
+        this.$router.push('/logado')
       }
     },
   },
