@@ -48,6 +48,12 @@
     "chunkName": "pages/sony"
   },
   {
+    "name": "post-id",
+    "path": "/post/:id?",
+    "component": "C:\\\\Users\\\\lordv\\\\OneDrive\\\\Documentos\\\\GitHub\\\\Project\\\\pages\\\\post\\\\_id.vue",
+    "chunkName": "pages/post/_id"
+  },
+  {
     "name": "index",
     "path": "/",
     "component": "C:\\\\Users\\\\lordv\\\\OneDrive\\\\Documentos\\\\GitHub\\\\Project\\\\pages\\\\index.vue",
