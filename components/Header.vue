@@ -25,9 +25,9 @@
       <div class="barradebusca">
         <div>
           <b-navbar type="light">
+            <div class="pesquisalado">
             <b-nav-form>
               <b-form-input
-                class="mr-sm-2"
                 placeholder="Pesquisar"
               ></b-form-input>
               <b-button
@@ -37,6 +37,7 @@
                 >Buscar</b-button
               >
             </b-nav-form>
+            </div>
           </b-navbar>
         </div>
       </div>
