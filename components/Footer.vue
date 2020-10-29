@@ -5,11 +5,11 @@
         <nuxt-link to="/">Consoles</nuxt-link>
       </div>
       <div class="xbox">
-        <nuxt-link to="/">Microsoft</nuxt-link>
+        <nuxt-link to="/microsoft">Microsoft</nuxt-link>
         <hr />
       </div>
       <div class="play">
-        <nuxt-link to="/">Playstation</nuxt-link>
+        <nuxt-link to="/sony">Sony</nuxt-link>
         <hr />
       </div>
       <div class="nintendo2">
@@ -43,7 +43,7 @@
         <hr />
       </div>
       <div class="cinema">
-        <nuxt-link to="/">Cinema</nuxt-link>
+        <nuxt-link to="/filmes">Cinema</nuxt-link>
         <hr />
       </div>
       <div class="ign">
