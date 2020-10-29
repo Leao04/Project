@@ -3,17 +3,17 @@ import Router from 'vue-router'
 import { interopDefault } from './utils'
 import scrollBehavior from './router.scrollBehavior.js'
 
-const _abf5c998 = () => interopDefault(import('..\\pages\\criar-post.vue' /* webpackChunkName: "pages/criar-post" */))
-const _e52d4b86 = () => interopDefault(import('..\\pages\\desconto.vue' /* webpackChunkName: "pages/desconto" */))
-const _c7749fea = () => interopDefault(import('..\\pages\\fale-conosco.vue' /* webpackChunkName: "pages/fale-conosco" */))
-const _01bde168 = () => interopDefault(import('..\\pages\\genshin.vue' /* webpackChunkName: "pages/genshin" */))
-const _078a6c93 = () => interopDefault(import('..\\pages\\lançamentos.vue' /* webpackChunkName: "pages/lançamentos" */))
-const _0278ba7a = () => interopDefault(import('..\\pages\\logado.vue' /* webpackChunkName: "pages/logado" */))
-const _71446147 = () => interopDefault(import('..\\pages\\login.vue' /* webpackChunkName: "pages/login" */))
-const _d329f568 = () => interopDefault(import('..\\pages\\microsoft.vue' /* webpackChunkName: "pages/microsoft" */))
-const _940ae08e = () => interopDefault(import('..\\pages\\sony.vue' /* webpackChunkName: "pages/sony" */))
-const _26861ff8 = () => interopDefault(import('..\\pages\\post\\_id.vue' /* webpackChunkName: "pages/post/_id" */))
-const _b0c683a0 = () => interopDefault(import('..\\pages\\index.vue' /* webpackChunkName: "pages/index" */))
+const _6393e6d1 = () => interopDefault(import('..\\pages\\criar-post.vue' /* webpackChunkName: "pages/criar-post" */))
+const _9eff2dcc = () => interopDefault(import('..\\pages\\desconto.vue' /* webpackChunkName: "pages/desconto" */))
+const _2d500868 = () => interopDefault(import('..\\pages\\fale-conosco.vue' /* webpackChunkName: "pages/fale-conosco" */))
+const _9f69fa2a = () => interopDefault(import('..\\pages\\genshin.vue' /* webpackChunkName: "pages/genshin" */))
+const _7fd51496 = () => interopDefault(import('..\\pages\\lançamentos.vue' /* webpackChunkName: "pages/lançamentos" */))
+const _426046d2 = () => interopDefault(import('..\\pages\\logado.vue' /* webpackChunkName: "pages/logado" */))
+const _febbf0ec = () => interopDefault(import('..\\pages\\login.vue' /* webpackChunkName: "pages/login" */))
+const _53945be2 = () => interopDefault(import('..\\pages\\microsoft.vue' /* webpackChunkName: "pages/microsoft" */))
+const _7204d5d4 = () => interopDefault(import('..\\pages\\sony.vue' /* webpackChunkName: "pages/sony" */))
+const _6650ecbb = () => interopDefault(import('..\\pages\\post\\_id.vue' /* webpackChunkName: "pages/post/_id" */))
+const _920b371a = () => interopDefault(import('..\\pages\\index.vue' /* webpackChunkName: "pages/index" */))
 
 // TODO: remove in Nuxt 3
 const emptyFn = () => {}
@@ -33,47 +33,47 @@ export const routerOptions = {
 
   routes: [{
     path: "/criar-post",
-    component: _abf5c998,
+    component: _6393e6d1,
     name: "criar-post"
   }, {
     path: "/desconto",
-    component: _e52d4b86,
+    component: _9eff2dcc,
     name: "desconto"
   }, {
     path: "/fale-conosco",
-    component: _c7749fea,
+    component: _2d500868,
     name: "fale-conosco"
   }, {
     path: "/genshin",
-    component: _01bde168,
+    component: _9f69fa2a,
     name: "genshin"
   }, {
     path: "/lançamentos",
-    component: _078a6c93,
+    component: _7fd51496,
     name: "lançamentos"
   }, {
     path: "/logado",
-    component: _0278ba7a,
+    component: _426046d2,
     name: "logado"
   }, {
     path: "/login",
-    component: _71446147,
+    component: _febbf0ec,
     name: "login"
   }, {
     path: "/microsoft",
-    component: _d329f568,
+    component: _53945be2,
     name: "microsoft"
   }, {
     path: "/sony",
-    component: _940ae08e,
+    component: _7204d5d4,
     name: "sony"
   }, {
     path: "/post/:id?",
-    component: _26861ff8,
+    component: _6650ecbb,
     name: "post-id"
   }, {
     path: "/",
-    component: _b0c683a0,
+    component: _920b371a,
     name: "index"
   }],
 
