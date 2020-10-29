@@ -12,6 +12,12 @@
     "chunkName": "pages/desconto"
   },
   {
+    "name": "fale-conosco",
+    "path": "/fale-conosco",
+    "component": "C:\\\\Users\\\\malve\\\\Documents\\\\GitHub\\\\Project\\\\pages\\\\fale-conosco.vue",
+    "chunkName": "pages/fale-conosco"
+  },
+  {
     "name": "genshin",
     "path": "/genshin",
     "component": "C:\\\\Users\\\\malve\\\\Documents\\\\GitHub\\\\Project\\\\pages\\\\genshin.vue",
