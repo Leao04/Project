@@ -956,3 +956,25 @@
     padding-left: 30px;
     text-align: center;
 }
+
+.Trabalhe-conosco-grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+}
+
+.Trabalhe-conosco-Titulo{
+    grid-column: 2/4;
+    grid-row: 1/1;
+    justify-content: center;
+    text-align: center;
+}
+
+.Trabalhe-conosco-Titulo h5{
+    color: slategrey;
+}
+
+.Trabalhe-conosco-formulario{
+    grid-column: 2/4;
+    grid-row: 2/7;
+}

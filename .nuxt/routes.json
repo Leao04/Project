@@ -3,66 +3,84 @@
     "name": "criar-post",
     "path": "/criar-post",
     "component": "C:\\\\Users\\\\malve\\\\Documents\\\\GitHub\\\\Project\\\\pages\\\\criar-post.vue",
-    "chunkName": "pages/criar-post"
+    "chunkName": "pages/criar-post",
+    "_name": "_abf5c998"
   },
   {
     "name": "desconto",
     "path": "/desconto",
     "component": "C:\\\\Users\\\\malve\\\\Documents\\\\GitHub\\\\Project\\\\pages\\\\desconto.vue",
-    "chunkName": "pages/desconto"
+    "chunkName": "pages/desconto",
+    "_name": "_e52d4b86"
   },
   {
     "name": "fale-conosco",
     "path": "/fale-conosco",
     "component": "C:\\\\Users\\\\malve\\\\Documents\\\\GitHub\\\\Project\\\\pages\\\\fale-conosco.vue",
-    "chunkName": "pages/fale-conosco"
+    "chunkName": "pages/fale-conosco",
+    "_name": "_c7749fea"
   },
   {
     "name": "genshin",
     "path": "/genshin",
     "component": "C:\\\\Users\\\\malve\\\\Documents\\\\GitHub\\\\Project\\\\pages\\\\genshin.vue",
-    "chunkName": "pages/genshin"
+    "chunkName": "pages/genshin",
+    "_name": "_01bde168"
   },
   {
     "name": "lançamentos",
     "path": "/lançamentos",
     "component": "C:\\\\Users\\\\malve\\\\Documents\\\\GitHub\\\\Project\\\\pages\\\\lançamentos.vue",
-    "chunkName": "pages/lançamentos"
+    "chunkName": "pages/lançamentos",
+    "_name": "_078a6c93"
   },
   {
     "name": "logado",
     "path": "/logado",
     "component": "C:\\\\Users\\\\malve\\\\Documents\\\\GitHub\\\\Project\\\\pages\\\\logado.vue",
-    "chunkName": "pages/logado"
+    "chunkName": "pages/logado",
+    "_name": "_0278ba7a"
   },
   {
     "name": "login",
     "path": "/login",
     "component": "C:\\\\Users\\\\malve\\\\Documents\\\\GitHub\\\\Project\\\\pages\\\\login.vue",
-    "chunkName": "pages/login"
+    "chunkName": "pages/login",
+    "_name": "_71446147"
   },
   {
     "name": "microsoft",
     "path": "/microsoft",
     "component": "C:\\\\Users\\\\malve\\\\Documents\\\\GitHub\\\\Project\\\\pages\\\\microsoft.vue",
-    "chunkName": "pages/microsoft"
+    "chunkName": "pages/microsoft",
+    "_name": "_d329f568"
   },
   {
     "name": "sony",
     "path": "/sony",
     "component": "C:\\\\Users\\\\malve\\\\Documents\\\\GitHub\\\\Project\\\\pages\\\\sony.vue",
-    "chunkName": "pages/sony"
+    "chunkName": "pages/sony",
+    "_name": "_940ae08e"
+  },
+  {
+    "name": "trabalhe-conosco",
+    "path": "/trabalhe-conosco",
+    "component": "C:\\\\Users\\\\malve\\\\Documents\\\\GitHub\\\\Project\\\\pages\\\\trabalhe-conosco.vue",
+    "chunkName": "pages/trabalhe-conosco",
+    "_name": "_3497cd1e"
   },
   {
     "name": "post-id",
     "path": "/post/:id?",
     "component": "C:\\\\Users\\\\malve\\\\Documents\\\\GitHub\\\\Project\\\\pages\\\\post\\\\_id.vue",
-    "chunkName": "pages/post/_id"
+    "chunkName": "pages/post/_id",
+    "_name": "_26861ff8"
   },
   {
     "name": "index",
     "path": "/",
     "component": "C:\\\\Users\\\\malve\\\\Documents\\\\GitHub\\\\Project\\\\pages\\\\index.vue",
-    "chunkName": "pages/index"
+    "chunkName": "pages/index",
+    "_name": "_b0c683a0"
   }
 ]

@@ -12,6 +12,7 @@ const _0278ba7a = () => interopDefault(import('..\\pages\\logado.vue' /* webpack
 const _71446147 = () => interopDefault(import('..\\pages\\login.vue' /* webpackChunkName: "pages/login" */))
 const _d329f568 = () => interopDefault(import('..\\pages\\microsoft.vue' /* webpackChunkName: "pages/microsoft" */))
 const _940ae08e = () => interopDefault(import('..\\pages\\sony.vue' /* webpackChunkName: "pages/sony" */))
+const _3497cd1e = () => interopDefault(import('..\\pages\\trabalhe-conosco.vue' /* webpackChunkName: "pages/trabalhe-conosco" */))
 const _26861ff8 = () => interopDefault(import('..\\pages\\post\\_id.vue' /* webpackChunkName: "pages/post/_id" */))
 const _b0c683a0 = () => interopDefault(import('..\\pages\\index.vue' /* webpackChunkName: "pages/index" */))
 
@@ -67,6 +68,10 @@ export const routerOptions = {
     path: "/sony",
     component: _940ae08e,
     name: "sony"
+  }, {
+    path: "/trabalhe-conosco",
+    component: _3497cd1e,
+    name: "trabalhe-conosco"
   }, {
     path: "/post/:id?",
     component: _26861ff8,
