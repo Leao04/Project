@@ -19,7 +19,7 @@
               v-model="form.email"
               type="email"
               required
-              placeholder="Entre com o seu email"
+              placeholder="Insira o seu e-mail para contato."
             ></b-form-input>
           </b-form-group>
 
@@ -36,7 +36,11 @@
             ></b-form-input>
           </b-form-group>
 
-          <b-form-group id="input-group-3" label="Cargo pretendido:" label-for="input-3">
+          <b-form-group
+            id="input-group-3"
+            label="Cargo pretendido:"
+            label-for="input-3"
+          >
             <b-form-select
               id="input-3"
               v-model="form.food"
@@ -59,41 +63,47 @@
 </template>
 
 <script>
-  export default {
-    data() {
-      return {
-        form: {
-          email: '',
-          name: '',
-          food: null,
-          checked: []
-        },
-        foods: [{ text: 'Selecione um', value: null }, 'Publicidade', 'Redação', 'Suporte', 'Outros'],
-        show: true
-      }
-    },
-    methods: {
-      onSubmit(evt) {
-        evt.preventDefault()
-        alert(JSON.stringify(this.form))
+export default {
+  data() {
+    return {
+      form: {
+        email: '',
+        name: '',
+        food: null,
+        checked: [],
       },
-      onReset(evt) {
-        evt.preventDefault()
-        // Reset our form values
-        this.form.email = ''
-        this.form.name = ''
-        this.form.food = null
-        this.form.checked = []
-        // Trick to reset/clear native browser form validation state
-        this.show = false
-        this.$nextTick(() => {
-          this.show = true
-        })
-      }
+      foods: [
+        { text: 'Selecione um', value: null },
+        'Publicidade',
+        'Redação',
+        'Suporte',
+        'Outros',
+      ],
+      show: true,
     }
-  }
+  },
+  methods: {
+    onSubmit(evt) {
+      evt.preventDefault()
+      alert(JSON.stringify(this.form))
+    },
+    onReset(evt) {
+      evt.preventDefault()
+      // Reset our form values
+      this.form.email = ''
+      this.form.name = ''
+      this.form.food = null
+      this.form.checked = []
+      // Trick to reset/clear native browser form validation state
+      this.show = false
+      this.$nextTick(() => {
+        this.show = true
+      })
+    },
+  },
+}
 </script>
 
 <style>
-@import "../assets/css/estilo.scss";
+@import '../assets/css/estilo.scss';
 </style>

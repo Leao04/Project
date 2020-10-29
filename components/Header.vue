@@ -2,13 +2,15 @@
   <div>
     <div class="grid">
       <div class="logo">
-        <img
-          class="logo"
-          src="../assets/img/ign-logo.png"
-          alt="Logo da IGN"
-          height="100em"
-          width="230em"
-        />
+        <nuxt-link to="/">
+          <img
+            class="logo"
+            src="../assets/img/ign-logo.png"
+            alt="Logo da IGN"
+            height="100em"
+            width="230em"
+          />
+        </nuxt-link>
       </div>
       <div class="sony">
         <nuxt-link to="/sony">Sony</nuxt-link>
@@ -52,10 +54,10 @@
 
 <script>
 export default {
-  name: "Header",
-};
+  name: 'Header',
+}
 </script>
 
 <style>
-@import "../assets/css/estilo.scss";
+@import '../assets/css/estilo.scss';
 </style>
