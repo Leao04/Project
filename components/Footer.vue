@@ -85,10 +85,6 @@
         <nuxt-link to="/fale-conosco">Fale conosco</nuxt-link>
         <hr />
       </div>
-      <div class="about">
-        <nuxt-link to="/">Sobre nós</nuxt-link>
-        <hr />
-      </div>
     </div>
     <div class="final">
       <p>©FATEC - Todos os direitos reservados</p>
