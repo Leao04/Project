@@ -6,6 +6,7 @@ import scrollBehavior from './router.scrollBehavior.js'
 const _abf5c998 = () => interopDefault(import('..\\pages\\criar-post.vue' /* webpackChunkName: "pages/criar-post" */))
 const _e52d4b86 = () => interopDefault(import('..\\pages\\desconto.vue' /* webpackChunkName: "pages/desconto" */))
 const _c7749fea = () => interopDefault(import('..\\pages\\fale-conosco.vue' /* webpackChunkName: "pages/fale-conosco" */))
+const _534357c4 = () => interopDefault(import('..\\pages\\filmes.vue' /* webpackChunkName: "pages/filmes" */))
 const _01bde168 = () => interopDefault(import('..\\pages\\genshin.vue' /* webpackChunkName: "pages/genshin" */))
 const _078a6c93 = () => interopDefault(import('..\\pages\\lançamentos.vue' /* webpackChunkName: "pages/lançamentos" */))
 const _0278ba7a = () => interopDefault(import('..\\pages\\logado.vue' /* webpackChunkName: "pages/logado" */))
@@ -44,6 +45,10 @@ export const routerOptions = {
     path: "/fale-conosco",
     component: _c7749fea,
     name: "fale-conosco"
+  }, {
+    path: "/filmes",
+    component: _534357c4,
+    name: "filmes"
   }, {
     path: "/genshin",
     component: _01bde168,

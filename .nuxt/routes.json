@@ -21,6 +21,13 @@
     "_name": "_c7749fea"
   },
   {
+    "name": "filmes",
+    "path": "/filmes",
+    "component": "C:\\\\Users\\\\malve\\\\Documents\\\\GitHub\\\\Project\\\\pages\\\\filmes.vue",
+    "chunkName": "pages/filmes",
+    "_name": "_534357c4"
+  },
+  {
     "name": "genshin",
     "path": "/genshin",
     "component": "C:\\\\Users\\\\malve\\\\Documents\\\\GitHub\\\\Project\\\\pages\\\\genshin.vue",
