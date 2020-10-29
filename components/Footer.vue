@@ -82,7 +82,7 @@
         <hr />
       </div>
       <div class="speak">
-        <nuxt-link to="/">Fale conosco</nuxt-link>
+        <nuxt-link to="/fale-conosco">Fale conosco</nuxt-link>
         <hr />
       </div>
       <div class="about">

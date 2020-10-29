@@ -1,5 +1,6 @@
 <template>
   <div>
+    <hr />
     <div class="Trabalhe-conosco-grid">
       <div class="Trabalhe-conosco-Titulo">
         <h1>Trabalhe Conosco</h1>
