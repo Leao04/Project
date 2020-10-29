@@ -5,6 +5,7 @@
         <h1>Notícias mais recentes sobre filmes</h1>
       </div>
       <div class="CardFilme1V">
+          <nuxt-link to="/about">
         <b-card-group deck>
           <b-card
             title="Cobra Kai"
@@ -17,9 +18,11 @@
             </b-card-text>
           </b-card>
         </b-card-group>
+        </nuxt-link>
       </div>
 
       <div class="CardFilme2V">
+          <nuxt-link to="/about">
         <b-card-group deck>
           <b-card
             title="Quiz de Naruto"
@@ -32,9 +35,11 @@
             </b-card-text>
           </b-card>
         </b-card-group>
+        </nuxt-link>
       </div>
 
       <div class="CardFilme3V">
+          <nuxt-link to="/about">
         <b-card-group deck>
           <b-card
             title="Karatê Kid e Cobra Kai"
@@ -47,9 +52,11 @@
             </b-card-text>
           </b-card>
         </b-card-group>
+        </nuxt-link>
       </div>
       <div class="FilmesTextoMeioBaixo"><h1>Noticias</h1></div>
           <div class="CardH1">
+              <nuxt-link to="/about">
           <b-card no-body class="overflow-hidden">
             <b-row no-gutters>
               <b-col md="5">
@@ -68,8 +75,10 @@
               </b-col>
             </b-row>
           </b-card>
+          </nuxt-link>
       </div>
          <div class="CardH2">
+             <nuxt-link to="/about">
           <b-card no-body class="overflow-hidden">
             <b-row no-gutters>
               <b-col md="5">
@@ -88,8 +97,10 @@
               </b-col>
             </b-row>
           </b-card>
+          </nuxt-link>
       </div>
           <div class="CardH3">
+              <nuxt-link to="/about">
           <b-card no-body class="overflow-hidden">
             <b-row no-gutters>
               <b-col md="5">
@@ -108,8 +119,10 @@
               </b-col>
             </b-row>
           </b-card>
+          </nuxt-link>
       </div>
           <div class="CardH4">
+              <nuxt-link to="/about">
           <b-card no-body class="overflow-hidden">
             <b-row no-gutters>
               <b-col md="5">
@@ -128,8 +141,10 @@
               </b-col>
             </b-row>
           </b-card>
+          </nuxt-link>
       </div>
           <div class="CardH5">
+              <nuxt-link to="/about">
           <b-card no-body class="overflow-hidden">
             <b-row no-gutters>
               <b-col md="5">
@@ -148,8 +163,10 @@
               </b-col>
             </b-row>
           </b-card>
+          </nuxt-link>
       </div>
       <div class="CardH6">
+          <nuxt-link to="/about">
           <b-card no-body class="overflow-hidden">
             <b-row no-gutters>
               <b-col md="5">
@@ -168,6 +185,7 @@
               </b-col>
             </b-row>
           </b-card>
+          </nuxt-link>
       </div>
     </div>
   </div>
