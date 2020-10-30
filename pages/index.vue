@@ -121,7 +121,6 @@
 </template>
 
 <script>
-import countering from '../assets/js/countering'
 export default {
   data() {
     return {
