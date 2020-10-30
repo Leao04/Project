@@ -93,6 +93,42 @@
     font-size: 25px;
 }
 
+.max-width{
+    max-width: 500px;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-top: 10%;
+    background-color: #fff;
+    box-shadow: 5px #fff;
+    text-align: center;
+}
+
+.botao{
+    padding: 10px;
+    border: none;
+    font-size: 1.1em;
+    transition: all .5s;
+    cursor: pointer;
+    border-radius: 25px;
+}
+
+.botao :hover{
+    background-color: blue;
+}
+
+.bg-green{
+    background-color: chartreuse;
+}
+
+.bg.yellow{
+    background-color: yellow;
+}
+
+.bg-red{
+    background-color: red;
+}
+
 .container1 {
     display: grid;
     grid-template-columns: repeat(7 , 1fr);
