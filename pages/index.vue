@@ -52,9 +52,9 @@
       <br />
       <p class="contagem">Contagem regressiva para CCXP 2020</p>
       <div class="max-width">
-        <button v-on="start()" class="bg-green">Iniciar</button>
-        <button v-on="pause()" class="bg-yellow">Pausar</button>
-        <button v-on="stop()" class="bg-red">Parar</button>
+        <button class="bg-green">Iniciar</button>
+        <button class="bg-yellow">Pausar</button>
+        <button class="bg-red">Parar</button>
         <h2 id="counter">00:00:00</h2>
       </div>
     </div>
