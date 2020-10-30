@@ -13,7 +13,7 @@
         <hr />
       </div>
       <div class="nintendo2">
-        <nuxt-link to="/">Nintendo</nuxt-link>
+        <nuxt-link to="nintendo">Nintendo</nuxt-link>
         <hr />
       </div>
       <div class="social">

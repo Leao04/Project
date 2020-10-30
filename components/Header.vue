@@ -19,7 +19,7 @@
         <nuxt-link to="/microsoft">Microsoft</nuxt-link>
       </div>
       <div class="nintendo">
-        <nuxt-link to="/">Nintendo</nuxt-link>
+        <nuxt-link to="nintendo">Nintendo</nuxt-link>
       </div>
       <div class="computador">
         <nuxt-link to="/">Computador</nuxt-link>
