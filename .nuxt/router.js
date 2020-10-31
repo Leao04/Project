@@ -14,6 +14,7 @@ const _15f0daf7 = () => interopDefault(import('..\\pages\\login.vue' /* webpackC
 const _9039b208 = () => interopDefault(import('..\\pages\\microsoft.vue' /* webpackChunkName: "pages/microsoft" */))
 const _5a146217 = () => interopDefault(import('..\\pages\\nintendo.vue' /* webpackChunkName: "pages/nintendo" */))
 const _dbffbfee = () => interopDefault(import('..\\pages\\sony.vue' /* webpackChunkName: "pages/sony" */))
+const _51a04bf2 = () => interopDefault(import('..\\pages\\supermash.vue' /* webpackChunkName: "pages/supermash" */))
 const _6db7656e = () => interopDefault(import('..\\pages\\trabalhe-conosco.vue' /* webpackChunkName: "pages/trabalhe-conosco" */))
 const _47fe41a8 = () => interopDefault(import('..\\pages\\post\\_id.vue' /* webpackChunkName: "pages/post/_id" */))
 const _4c4937e0 = () => interopDefault(import('..\\pages\\index.vue' /* webpackChunkName: "pages/index" */))
@@ -78,6 +79,10 @@ export const routerOptions = {
     path: "/sony",
     component: _dbffbfee,
     name: "sony"
+  }, {
+    path: "/supermash",
+    component: _51a04bf2,
+    name: "supermash"
   }, {
     path: "/trabalhe-conosco",
     component: _6db7656e,

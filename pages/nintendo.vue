@@ -38,9 +38,9 @@
         </nuxt-link>
       </div>
       <div class="cardNintendo2">
-        <nuxt-link to="/">
+        <nuxt-link to="/supermash">
           <img
-            src="../assets/img/supersmashbrosultimatesteveminecraftlutador.jpg"
+            src="../assets/img/steve.jpg"
             alt=""
             height="490px"
             width="300px"
