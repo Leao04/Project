@@ -2672,8 +2672,6 @@
                 : typeof t
             })(t)
     }
-    'object' !== l(window.TenUp) && (window.TenUp = {}),
-      (window.TenUp.CountdownTimer = f)
   },
 ])
 //# sourceMappingURL=countdown-timer.js.map

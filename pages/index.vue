@@ -176,7 +176,6 @@ let countdownTimer = new TenUp.CountdownTimer('.countdown-timer', {
   },
 })
 </script>
-
 <style>
 @import '../assets/css/estilo.scss';
 </style>
