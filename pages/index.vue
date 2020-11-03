@@ -50,6 +50,34 @@
       <img class="con" src="../assets/img/comic.jpg" alt="imagem" />
       <br />
       <br />
+      <div>
+        <time
+          class="countdown-timer tenup-countdown-timer"
+          datetime="2046-01-01T00:00:00"
+          role="timer"
+          aria-label="Countdown timer"
+          aria-atomic="true"
+          aria-live="off"
+          ><span class="tenup-countdown-timer-years" aria-label="25 years"
+            >25 years</span
+          >,
+          <span class="tenup-countdown-timer-weeks" aria-label="8 weeks"
+            >8 weeks</span
+          >,
+          <span class="tenup-countdown-timer-days" aria-label="1 day"
+            >1 day</span
+          >,
+          <span class="tenup-countdown-timer-hours" aria-label="14 hours"
+            >14 hours</span
+          >,
+          <span class="tenup-countdown-timer-minutes" aria-label="18 minutes"
+            >18 minutes</span
+          >,
+          <span aria-label="12 seconds" aria-hidden="true" kkl=""
+            >12 seconds</span
+          ></time
+        >
+      </div>
     </div>
     <div class="container1">
       <div class="card1">
@@ -131,7 +159,6 @@ export default {
   },
 }
 </script>
-<<<<<<< HEAD
 <script src="../dist/countdown-timer.js"></script>
 <script>
 let countdownTimer = new TenUp.CountdownTimer('.countdown-timer', {
@@ -148,8 +175,7 @@ let countdownTimer = new TenUp.CountdownTimer('.countdown-timer', {
   },
 })
 </script>
-=======
->>>>>>> a60ee28e6870b5118a66afdc446a3209d7dc93da
+
 <style>
 @import '../assets/css/estilo.scss';
 </style>
