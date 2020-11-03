@@ -51,16 +51,33 @@
       <br />
       <br />
       <p class="contagem">Contagem regressiva para CCXP 2020</p>
-      <div class="max-width">
-        <button class="bg-green">Iniciar</button>
-        <button class="bg-yellow">Pausar</button>
-        <button class="bg-red">Parar</button>
-        <h2 id="counter">00:00:00</h2>
-      </div>
       <div>
-        <time class="countdown-timer" datetime="2046-01-01T00:00:00">
-          <!-- Some fallback content, perhaps the date string itself or a message to users or machines that can't view this component with JS. -->
-        </time>
+        <time
+          class="countdown-timer tenup-countdown-timer"
+          datetime="2046-01-01T00:00:00"
+          role="timer"
+          aria-label="Countdown timer"
+          aria-atomic="true"
+          aria-live="off"
+          ><span class="tenup-countdown-timer-years" aria-label="25 years"
+            >25 years</span
+          >,
+          <span class="tenup-countdown-timer-weeks" aria-label="8 weeks"
+            >8 weeks</span
+          >,
+          <span class="tenup-countdown-timer-days" aria-label="2 days"
+            >2 days</span
+          >,
+          <span class="tenup-countdown-timer-hours" aria-label="1 hour"
+            >1 hour</span
+          >,
+          <span class="tenup-countdown-timer-minutes" aria-label="46 minutes"
+            >46 minutes</span
+          >,
+          <span aria-label="40 seconds" aria-hidden="true" kkl=""
+            >40 seconds</span
+          ></time
+        >
       </div>
     </div>
     <div class="container1">
@@ -142,11 +159,6 @@ export default {
     },
   },
 }
-import CountdownTimer from '@10up/countdown-timer'
-
-new CountdownTimer('.countdown-timer', {
-  // Settings and callback properties go here.
-})
 </script>
 
 <style>
