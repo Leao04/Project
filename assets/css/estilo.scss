@@ -1,6 +1,6 @@
 .grid{
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(6, 1fr);
     grid-template-rows: repeat(1, 1fr);
 }
 
@@ -16,6 +16,7 @@
     grid-row: 1/1;  
     padding-top: 50px;
     padding-left: 30px;
+    text-align: center;
 }
 
 .sony a{
@@ -26,10 +27,10 @@
 }
 
 .microsoft{
-    grid-column: 2/2;
+    grid-column: 3/3;
     grid-row: 1/1;
-    padding-left: 120px;
     padding-top: 50px;
+    text-align: center;
 }
 
 .microsoft a{
@@ -40,10 +41,10 @@
 }
 
 .nintendo{
-    grid-column: 3/3;
+    grid-column: 4/4;
     grid-row: 1/1;
     padding-top: 50px;
-    padding-left: 20px;
+    text-align: center;
 }
 
 .nintendo a{
@@ -54,10 +55,10 @@
 }
 
 .computador{
-    grid-column: 3/3;
+    grid-column: 5/5;
     grid-row: 1/1;
     padding-top: 50px;
-    padding-left: 170px;
+    text-align: center;
 }
 
 .computador a{
@@ -65,12 +66,7 @@
     color: black;
     font-weight: bold;
     font-size: 30px;
-}
-
-.barradebusca{
-    grid-column: 4/6;
-    grid-row: 1/1;
-    padding-top: 50px;
+    text-align: center;
 }
 
 .login{
@@ -78,6 +74,7 @@
     grid-row: 1/1;
     padding-right: 10px;
     padding-top: 58px;
+    text-align: center;
 }
 
 .evento{
@@ -1263,4 +1260,12 @@
     margin-left: auto;
     margin-right: auto;
     width: 500px;
+}
+
+@media (max-width: 600px) {
+    .grid{
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+    }
 }

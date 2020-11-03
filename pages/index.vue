@@ -50,35 +50,6 @@
       <img class="con" src="../assets/img/comic.jpg" alt="imagem" />
       <br />
       <br />
-      <p class="contagem">Contagem regressiva para CCXP 2020</p>
-      <div>
-        <time
-          class="countdown-timer tenup-countdown-timer"
-          datetime="2046-01-01T00:00:00"
-          role="timer"
-          aria-label="Countdown timer"
-          aria-atomic="true"
-          aria-live="off"
-          ><span class="tenup-countdown-timer-years" aria-label="25 years"
-            >25 years</span
-          >,
-          <span class="tenup-countdown-timer-weeks" aria-label="8 weeks"
-            >8 weeks</span
-          >,
-          <span class="tenup-countdown-timer-days" aria-label="2 days"
-            >2 days</span
-          >,
-          <span class="tenup-countdown-timer-hours" aria-label="1 hour"
-            >1 hour</span
-          >,
-          <span class="tenup-countdown-timer-minutes" aria-label="46 minutes"
-            >46 minutes</span
-          >,
-          <span aria-label="40 seconds" aria-hidden="true" kkl=""
-            >40 seconds</span
-          ></time
-        >
-      </div>
     </div>
     <div class="container1">
       <div class="card1">
@@ -160,23 +131,6 @@ export default {
   },
 }
 </script>
-<script src="../dist/countdown-timer.js"></script>
-<script>
-let countdownTimer = new TenUp.CountdownTimer('.countdown-timer', {
-  onCreate: function (instance) {
-    console.log('onCreate callback', instance)
-  },
-
-  onEnd: function (instance) {
-    console.log('onEnd callback', instance)
-  },
-
-  onTick: function (instance) {
-    console.log('onTick callback', instance)
-  },
-})
-</script>
-
 <style>
 @import '../assets/css/estilo.scss';
 </style>

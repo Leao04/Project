@@ -22,25 +22,7 @@
         <nuxt-link to="nintendo">Nintendo</nuxt-link>
       </div>
       <div class="computador">
-        <nuxt-link to="/">Computador</nuxt-link>
-      </div>
-      <div class="barradebusca">
-        <div>
-          <b-navbar type="light">
-            <b-nav-form>
-              <b-form-input
-                class="mr-sm-2"
-                placeholder="Pesquisar"
-              ></b-form-input>
-              <b-button
-                variant="outline-success"
-                class="my-2 my-sm-0"
-                type="submit"
-                >Buscar</b-button
-              >
-            </b-nav-form>
-          </b-navbar>
-        </div>
+        <nuxt-link to="/">Blog</nuxt-link>
       </div>
       <div class="login">
         <nuxt-link to="/login">
