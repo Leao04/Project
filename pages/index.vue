@@ -58,7 +58,7 @@
           aria-label="Countdown timer"
           aria-atomic="true"
           aria-live="off"
-          >,
+        >
           <span class="tenup-countdown-timer-weeks" aria-label="8 weeks"
             >8 weeks</span
           >,
@@ -157,21 +157,24 @@ export default {
   },
 }
 </script>
+//
 <script src="../dist/countdown-timer.js"></script>
+//
 <script>
-let countdownTimer = new TenUp.CountdownTimer('.countdown-timer', {
-  onCreate: function (instance) {
-    console.log('onCreate callback', instance)
-  },
+// let countdownTimer = new TenUp.CountdownTimer('.countdown-timer', {
+//   onCreate: function (instance) {
+//     console.log('onCreate callback', instance)
+//   },
 
-  onEnd: function (instance) {
-    console.log('onEnd callback', instance)
-  },
+//   onEnd: function (instance) {
+//     console.log('onEnd callback', instance)
+//   },
 
-  onTick: function (instance) {
-    console.log('onTick callback', instance)
-  },
-})
+//   onTick: function (instance) {
+//     console.log('onTick callback', instance)
+//   },
+// })
+//
 </script>
 
 <style>
