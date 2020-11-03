@@ -142,6 +142,8 @@
   </div>
 </template>
 
+<script src="../dist/countdown-timer.js"></script>
+<script src="../dist/countdown.js"></script>
 <script>
 export default {
   data() {
