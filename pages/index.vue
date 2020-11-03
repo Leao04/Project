@@ -57,6 +57,11 @@
         <button class="bg-red">Parar</button>
         <h2 id="counter">00:00:00</h2>
       </div>
+      <div>
+        <time class="countdown-timer" datetime="2046-01-01T00:00:00">
+          <!-- Some fallback content, perhaps the date string itself or a message to users or machines that can't view this component with JS. -->
+        </time>
+      </div>
     </div>
     <div class="container1">
       <div class="card1">
@@ -137,6 +142,11 @@ export default {
     },
   },
 }
+import CountdownTimer from '@10up/countdown-timer'
+
+new CountdownTimer('.countdown-timer', {
+  // Settings and callback properties go here.
+})
 </script>
 
 <style>
