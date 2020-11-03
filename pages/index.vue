@@ -58,8 +58,6 @@
           aria-label="Countdown timer"
           aria-atomic="true"
           aria-live="off"
-          ><span class="tenup-countdown-timer-years" aria-label="25 years"
-            >25 years</span
           >,
           <span class="tenup-countdown-timer-weeks" aria-label="8 weeks"
             >8 weeks</span
