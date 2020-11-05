@@ -1262,6 +1262,22 @@
     width: 500px;
 }
 
+.control{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bolder;
+}
+.controlvideo video{
+    display: flex;
+    justify-items: center;
+    height: 400px;
+    width: 600px;
+}
+.conteudocontrol{
+    padding-left: 30px;
+    font-size: 20px;
+}
+
 @media (max-width: 600px) {
     .grid{
         display: grid;
