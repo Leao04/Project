@@ -2,14 +2,18 @@
   <div>
     <Header />
     <Nuxt />
+    <div v-if="messageText" class="notification" :class="messageType">
+      <button class="delete" @click="closeNotification"></button>
+      {{ messageText }}
+    </div>
     <Footer />
   </div>
 </template>
 
 <script>
-import { mapState, mapActions } from "vuex";
-import Header from "../components/Header";
-import Footer from "../components/Footer";
+import { mapState, mapActions } from 'vuex'
+import Header from '../components/Header'
+import Footer from '../components/Footer'
 export default {
   components: {
     Header,
@@ -19,44 +23,51 @@ export default {
     return {
       items: [
         {
-          title: "Home",
-          icon: "home",
-          to: { name: "index" },
+          title: 'Home',
+          icon: 'home',
+          to: { name: 'index' },
         },
         {
-          title: "Inspire",
-          icon: "lightbulb",
-          to: { name: "inspire" },
+          title: 'Inspire',
+          icon: 'lightbulb',
+          to: { name: 'inspire' },
         },
         {
-          title: "Criar Post",
-          icon: "plus",
-          to: { name: "criar-post" },
+          title: 'Criar Post',
+          icon: 'plus',
+          to: { name: 'criar-post' },
         },
       ],
-    };
+    }
   },
   computed: {
     ...mapState({
       login: (state) => state.user.login,
+      messageText: (state) => state.messages.message,
+      messageType: (state) => state.messages.type,
     }),
   },
   methods: {
     ...mapActions({
-      clearUser: "user/clearUser",
+      clearUser: 'user/clearUser',
+      showMessage: 'messages/showMessage',
     }),
 
     logout() {
-      this.clearUser();
+      this.clearUser()
+    },
+
+    closeNotification() {
+      this.showMessage(null)
     },
   },
-};
+}
 </script>
 
 <style>
 html {
-  font-family: "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI",
-    Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI',
+    Roboto, 'Helvetica Neue', Arial, sans-serif;
   font-size: 16px;
   word-spacing: 1px;
   -ms-text-size-adjust: 100%;

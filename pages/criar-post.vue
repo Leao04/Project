@@ -10,13 +10,18 @@
           :class="titleClass"
           @input="updatedTitle"
         />
-        <input
+        <select
           v-model="author"
           type="text"
           placeholder="Autor"
           :class="authorClass"
           @input="updatedAuthor"
-        />
+        >
+          <option value="">Autor</option>
+          <option v-for="user of users" :key="user._id" :value="user._id">
+            {{ user.name }}
+          </option>
+        </select>
         <textarea
           v-model="content"
           type="text"
@@ -25,11 +30,8 @@
           @input="updatedContent"
         />
         <button>Salvar</button>
-
-        <p v-if="error">{{ error }}</p>
       </form>
     </div>
-    <br />
   </div>
 </template>
 
@@ -37,35 +39,43 @@
 import { mapActions } from 'vuex'
 
 export default {
+  async fetch() {
+    const users = await this.$axios.$get('users')
+    this.users = users.sort((a, b) => a.name.localeCompare(b.name))
+  },
   data() {
     return {
+      users: [],
       title: '',
       titleClass: '',
       author: '',
       authorClass: '',
       content: '',
       contentClass: '',
-      error: '',
     }
   },
   methods: {
     ...mapActions({
-      addPost: 'posts/addPost',
+      showMessage: 'messages/showMessage',
     }),
 
     save() {
       if (!this.isValid()) return false
 
-      this.addPost({
-        id: Math.round(Math.random() * 999999),
-        title: this.title,
-        author: this.author,
-        content: this.content,
-      })
+      // await this.$axios.$post('posts', {
+      //   title: this.title,
+      //   content: this.content,
+      //   author: this.author,
+      // })
 
       this.title = ''
       this.author = ''
       this.content = ''
+
+      this.showMessage({
+        message: 'Foi incluído com sucesso!',
+        type: 'is-success',
+      })
     },
 
     isValid() {
@@ -75,19 +85,28 @@ export default {
       this.contentClass = ''
 
       if (!this.title) {
-        this.error = 'O título é obrigatório!'
+        this.showMessage({
+          message: 'O título é obrigatório!',
+          type: 'is-danger',
+        })
         this.titleClass = 'has-text-danger'
         return false
       }
 
       if (!this.author) {
-        this.error = 'O autor é obrigatório!'
+        this.showMessage({
+          message: 'O autor é obrigatório!',
+          type: 'is-danger',
+        })
         this.authorClass = 'has-text-danger'
         return false
       }
 
       if (!this.content) {
-        this.error = 'O conteúdo é obrigatório!'
+        this.showMessage({
+          message: 'O conteúdo é obrigatório!',
+          type: 'is-danger',
+        })
         this.contentClass = 'has-text-danger'
         return false
       }
@@ -112,3 +131,14 @@ export default {
   },
 }
 </script>
+
+<style lang="scss" scoped>
+input,
+textarea {
+  outline: none;
+}
+
+.has-text-danger {
+  border: 1px solid red;
+}
+</style>

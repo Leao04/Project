@@ -155,6 +155,21 @@ export default {
       this.sliding = false
     },
   },
+  async fetch() {
+    const posts = await this.$axios.$get('posts')
+    const users = await this.$axios.$get('users')
+    this.posts = posts
+      .map((post) => ({
+        ...post,
+        author: users.find((user) => user._id === post.author).name,
+      }))
+      .sort((a, b) => a.title.localeCompare(b.title))
+  },
+  data() {
+    return {
+      posts: [],
+    }
+  },
 }
 </script>
 //
