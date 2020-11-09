@@ -1,20 +1,21 @@
-import persistedState from "vuex-persistedstate";
+import persistedState from 'vuex-persistedstate'
 
 export default ({ store }) => {
   persistedState({
-    key: "_aux",
+    key: '_aux',
+    paths: ['user'],
     storage: {
       getItem(key) {
-        return localStorage.getItem(key);
+        return localStorage.getItem(key)
       },
 
       setItem(key, value) {
-        localStorage.setItem(key, value);
+        localStorage.setItem(key, value)
       },
 
       removeItem(key) {
-        localStorage.removeItem(key);
+        localStorage.removeItem(key)
       },
     },
-  })(store);
-};
+  })(store)
+}
