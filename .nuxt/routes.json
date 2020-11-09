@@ -2,113 +2,97 @@
   {
     "name": "control",
     "path": "/control",
-    "component": "C:\\\\Users\\\\ViniciusLanghi\\\\Documents\\\\GitHub\\\\Project\\\\pages\\\\control.vue",
-    "chunkName": "pages/control",
-    "_name": "_31029d2a"
+    "component": "C:\\\\Users\\\\lordv\\\\OneDrive\\\\Documentos\\\\GitHub\\\\Project\\\\pages\\\\control.vue",
+    "chunkName": "pages/control"
   },
   {
     "name": "criar-post",
     "path": "/criar-post",
-    "component": "C:\\\\Users\\\\ViniciusLanghi\\\\Documents\\\\GitHub\\\\Project\\\\pages\\\\criar-post.vue",
-    "chunkName": "pages/criar-post",
-    "_name": "_90dda0f8"
+    "component": "C:\\\\Users\\\\lordv\\\\OneDrive\\\\Documentos\\\\GitHub\\\\Project\\\\pages\\\\criar-post.vue",
+    "chunkName": "pages/criar-post"
   },
   {
     "name": "desconto",
     "path": "/desconto",
-    "component": "C:\\\\Users\\\\ViniciusLanghi\\\\Documents\\\\GitHub\\\\Project\\\\pages\\\\desconto.vue",
-    "chunkName": "pages/desconto",
-    "_name": "_5ee37ae6"
+    "component": "C:\\\\Users\\\\lordv\\\\OneDrive\\\\Documentos\\\\GitHub\\\\Project\\\\pages\\\\desconto.vue",
+    "chunkName": "pages/desconto"
   },
   {
     "name": "fale-conosco",
     "path": "/fale-conosco",
-    "component": "C:\\\\Users\\\\ViniciusLanghi\\\\Documents\\\\GitHub\\\\Project\\\\pages\\\\fale-conosco.vue",
-    "chunkName": "pages/fale-conosco",
-    "_name": "_771df05b"
+    "component": "C:\\\\Users\\\\lordv\\\\OneDrive\\\\Documentos\\\\GitHub\\\\Project\\\\pages\\\\fale-conosco.vue",
+    "chunkName": "pages/fale-conosco"
   },
   {
     "name": "filmes",
     "path": "/filmes",
-    "component": "C:\\\\Users\\\\ViniciusLanghi\\\\Documents\\\\GitHub\\\\Project\\\\pages\\\\filmes.vue",
-    "chunkName": "pages/filmes",
-    "_name": "_44261414"
+    "component": "C:\\\\Users\\\\lordv\\\\OneDrive\\\\Documentos\\\\GitHub\\\\Project\\\\pages\\\\filmes.vue",
+    "chunkName": "pages/filmes"
   },
   {
     "name": "genshin",
     "path": "/genshin",
-    "component": "C:\\\\Users\\\\ViniciusLanghi\\\\Documents\\\\GitHub\\\\Project\\\\pages\\\\genshin.vue",
-    "chunkName": "pages/genshin",
-    "_name": "_2d32af18"
+    "component": "C:\\\\Users\\\\lordv\\\\OneDrive\\\\Documentos\\\\GitHub\\\\Project\\\\pages\\\\genshin.vue",
+    "chunkName": "pages/genshin"
   },
   {
     "name": "lançamentos",
     "path": "/lançamentos",
-    "component": "C:\\\\Users\\\\ViniciusLanghi\\\\Documents\\\\GitHub\\\\Project\\\\pages\\\\lançamentos.vue",
-    "chunkName": "pages/lançamentos",
-    "_name": "_a8fe3b7a"
+    "component": "C:\\\\Users\\\\lordv\\\\OneDrive\\\\Documentos\\\\GitHub\\\\Project\\\\pages\\\\lançamentos.vue",
+    "chunkName": "pages/lançamentos"
   },
   {
     "name": "logado",
     "path": "/logado",
-    "component": "C:\\\\Users\\\\ViniciusLanghi\\\\Documents\\\\GitHub\\\\Project\\\\pages\\\\logado.vue",
-    "chunkName": "pages/logado",
-    "_name": "_1949126c"
+    "component": "C:\\\\Users\\\\lordv\\\\OneDrive\\\\Documentos\\\\GitHub\\\\Project\\\\pages\\\\logado.vue",
+    "chunkName": "pages/logado"
   },
   {
     "name": "login",
     "path": "/login",
-    "component": "C:\\\\Users\\\\ViniciusLanghi\\\\Documents\\\\GitHub\\\\Project\\\\pages\\\\login.vue",
-    "chunkName": "pages/login",
-    "_name": "_15f0daf7"
+    "component": "C:\\\\Users\\\\lordv\\\\OneDrive\\\\Documentos\\\\GitHub\\\\Project\\\\pages\\\\login.vue",
+    "chunkName": "pages/login"
   },
   {
     "name": "microsoft",
     "path": "/microsoft",
-    "component": "C:\\\\Users\\\\ViniciusLanghi\\\\Documents\\\\GitHub\\\\Project\\\\pages\\\\microsoft.vue",
-    "chunkName": "pages/microsoft",
-    "_name": "_9039b208"
+    "component": "C:\\\\Users\\\\lordv\\\\OneDrive\\\\Documentos\\\\GitHub\\\\Project\\\\pages\\\\microsoft.vue",
+    "chunkName": "pages/microsoft"
   },
   {
     "name": "nintendo",
     "path": "/nintendo",
-    "component": "C:\\\\Users\\\\ViniciusLanghi\\\\Documents\\\\GitHub\\\\Project\\\\pages\\\\nintendo.vue",
-    "chunkName": "pages/nintendo",
-    "_name": "_5a146217"
+    "component": "C:\\\\Users\\\\lordv\\\\OneDrive\\\\Documentos\\\\GitHub\\\\Project\\\\pages\\\\nintendo.vue",
+    "chunkName": "pages/nintendo"
   },
   {
     "name": "sony",
     "path": "/sony",
-    "component": "C:\\\\Users\\\\ViniciusLanghi\\\\Documents\\\\GitHub\\\\Project\\\\pages\\\\sony.vue",
-    "chunkName": "pages/sony",
-    "_name": "_dbffbfee"
+    "component": "C:\\\\Users\\\\lordv\\\\OneDrive\\\\Documentos\\\\GitHub\\\\Project\\\\pages\\\\sony.vue",
+    "chunkName": "pages/sony"
   },
   {
     "name": "supermash",
     "path": "/supermash",
-    "component": "C:\\\\Users\\\\ViniciusLanghi\\\\Documents\\\\GitHub\\\\Project\\\\pages\\\\supermash.vue",
-    "chunkName": "pages/supermash",
-    "_name": "_51a04bf2"
+    "component": "C:\\\\Users\\\\lordv\\\\OneDrive\\\\Documentos\\\\GitHub\\\\Project\\\\pages\\\\supermash.vue",
+    "chunkName": "pages/supermash"
   },
   {
     "name": "trabalhe-conosco",
     "path": "/trabalhe-conosco",
-    "component": "C:\\\\Users\\\\ViniciusLanghi\\\\Documents\\\\GitHub\\\\Project\\\\pages\\\\trabalhe-conosco.vue",
-    "chunkName": "pages/trabalhe-conosco",
-    "_name": "_6db7656e"
+    "component": "C:\\\\Users\\\\lordv\\\\OneDrive\\\\Documentos\\\\GitHub\\\\Project\\\\pages\\\\trabalhe-conosco.vue",
+    "chunkName": "pages/trabalhe-conosco"
   },
   {
     "name": "post-id",
     "path": "/post/:id?",
-    "component": "C:\\\\Users\\\\ViniciusLanghi\\\\Documents\\\\GitHub\\\\Project\\\\pages\\\\post\\\\_id.vue",
-    "chunkName": "pages/post/_id",
-    "_name": "_47fe41a8"
+    "component": "C:\\\\Users\\\\lordv\\\\OneDrive\\\\Documentos\\\\GitHub\\\\Project\\\\pages\\\\post\\\\_id.vue",
+    "chunkName": "pages/post/_id"
   },
   {
     "name": "index",
     "path": "/",
-    "component": "C:\\\\Users\\\\ViniciusLanghi\\\\Documents\\\\GitHub\\\\Project\\\\pages\\\\index.vue",
-    "chunkName": "pages/index",
-    "_name": "_4c4937e0"
+    "component": "C:\\\\Users\\\\lordv\\\\OneDrive\\\\Documentos\\\\GitHub\\\\Project\\\\pages\\\\index.vue",
+    "chunkName": "pages/index"
   }
 ]
