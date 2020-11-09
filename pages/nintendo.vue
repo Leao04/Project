@@ -49,7 +49,7 @@
         </nuxt-link>
       </div>
       <div class="cardNintendo3">
-        <nuxt-link to="/">
+        <nuxt-link to="control">
           <img
             src="../assets/img/control.jpg"
             alt=""
