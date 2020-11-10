@@ -1,38 +1,33 @@
 <template>
-  <div>
-    <hr />
-    <div>
-      <form @submit.prevent="save">
-        <input
-          v-model="title"
-          type="text"
-          placeholder="Título"
-          :class="titleClass"
-          @input="updatedTitle"
-        />
-        <select
-          v-model="author"
-          type="text"
-          placeholder="Autor"
-          :class="authorClass"
-          @input="updatedAuthor"
-        >
-          <option value="">Autor</option>
-          <option v-for="user of users" :key="user._id" :value="user._id">
-            {{ user.name }}
-          </option>
-        </select>
-        <textarea
-          v-model="content"
-          type="text"
-          placeholder="Conteúdo"
-          :class="contentClass"
-          @input="updatedContent"
-        />
-        <button>Salvar</button>
-      </form>
-    </div>
-  </div>
+  <form @submit.prevent="save">
+    <input
+      v-model="title"
+      type="text"
+      placeholder="Título"
+      :class="titleClass"
+      @input="updatedTitle"
+    />
+    <select
+      v-model="author"
+      type="text"
+      placeholder="Autor"
+      :class="authorClass"
+      @input="updatedAuthor"
+    >
+      <option value="">Autor</option>
+      <option v-for="user of users" :key="user._id" :value="user._id">
+        {{ user.name }}
+      </option>
+    </select>
+    <textarea
+      v-model="content"
+      type="text"
+      placeholder="Conteúdo"
+      :class="contentClass"
+      @input="updatedContent"
+    />
+    <button>Salvar</button>
+  </form>
 </template>
 
 <script>
@@ -131,14 +126,3 @@ export default {
   },
 }
 </script>
-
-<style lang="scss" scoped>
-input,
-textarea {
-  outline: none;
-}
-
-.has-text-danger {
-  border: 1px solid red;
-}
-</style>
