@@ -10,18 +10,19 @@
       </div>
 
       <div class="conteudoFale">
-        <p> <b>Publicidade:</b> Para conhecer as opções de publicidade disponíveis e
-        conversar sobre possíveis parcerias, escreva para publicidadebrasil [@]
-        ign.com. 
-        <br> 
-        <br>
-       <b> Redação:</b> Se você tem perguntas ou sugestões de pauta, envie uma
-        mensagem para redacaobrasil [@] ign.com. 
-        <br>
-        <br> 
-       <b> Suporte, contato e informações gerais: </b>
-        Quer saber mais sobre o IGN Brasil, dar sugestões de notícias ou
-        avisar sobre algum problema? Escreva para ignbrasil [@] ign.com.
+        <p>
+          <b>Publicidade:</b> Para conhecer as opções de publicidade disponíveis
+          e conversar sobre possíveis parcerias, escreva para publicidadebrasil
+          [@] ign.com.
+          <br />
+          <br />
+          <b> Redação:</b> Se você tem perguntas ou sugestões de pauta, envie
+          uma mensagem para redacaobrasil [@] ign.com.
+          <br />
+          <br />
+          <b> Suporte, contato e informações gerais: </b>
+          Quer saber mais sobre o IGN Brasil, dar sugestões de notícias ou
+          avisar sobre algum problema? Escreva para ignbrasil [@] ign.com.
         </p>
       </div>
     </div>

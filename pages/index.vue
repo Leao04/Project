@@ -141,20 +141,6 @@
 
 <script>
 export default {
-  data() {
-    return {
-      slide: 0,
-      sliding: null,
-    }
-  },
-  methods: {
-    onSlideStart(slide) {
-      this.sliding = true
-    },
-    onSlideEnd(slide) {
-      this.sliding = false
-    },
-  },
   async fetch() {
     const posts = await this.$axios.$get('posts')
     const users = await this.$axios.$get('users')
@@ -167,8 +153,19 @@ export default {
   },
   data() {
     return {
+      slide: 0,
+      sliding: null,
       posts: [],
     }
+  },
+
+  methods: {
+    onSlideStart(slide) {
+      this.sliding = true
+    },
+    onSlideEnd(slide) {
+      this.sliding = false
+    },
   },
 }
 </script>

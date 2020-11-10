@@ -59,5 +59,5 @@
 </template>
 
 <style>
-@import "../assets/css/estilo.scss";
+@import '../assets/css/estilo.scss';
 </style>

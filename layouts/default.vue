@@ -43,8 +43,6 @@ export default {
   computed: {
     ...mapState({
       login: (state) => state.user.login,
-      messageText: (state) => state.messages.message,
-      messageType: (state) => state.messages.type,
     }),
   },
   methods: {

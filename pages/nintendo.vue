@@ -20,7 +20,9 @@
           height="400px"
         >
           <b-card-text>
-            O Nintendo Switch foi desenvolvido para fazer parte da sua vida, transformando-se de um console doméstico em um console portátil num piscar de olhos.
+            O Nintendo Switch foi desenvolvido para fazer parte da sua vida,
+            transformando-se de um console doméstico em um console portátil num
+            piscar de olhos.
           </b-card-text>
         </b-card>
       </nuxt-link>
@@ -45,7 +47,10 @@
             height="490px"
             width="300px"
           />
-          <p>Super Smash Bros Ultimate anuncia Steve de Minecraft como novo lutador</p>
+          <p>
+            Super Smash Bros Ultimate anuncia Steve de Minecraft como novo
+            lutador
+          </p>
         </nuxt-link>
       </div>
       <div class="cardNintendo3">
@@ -56,88 +61,43 @@
             height="490px"
             width="300px"
           />
-          <p>
-              Control Ultimate Edition – Cloud Version é anunciado Switch
-          </p>
+          <p>Control Ultimate Edition – Cloud Version é anunciado Switch</p>
         </nuxt-link>
       </div>
 
       <div class="cardNintendo4">
         <nuxt-link to="/">
-          <img
-            src=""
-            alt=""
-            height="490px"
-            width="300px"
-          />
-          <p>
-
-          </p>
+          <img src="" alt="" height="490px" width="300px" />
+          <p></p>
         </nuxt-link>
       </div>
       <div class="cardNintendo5">
         <nuxt-link to="/">
-          <img
-            src=""
-            alt=""
-            height="490px"
-            width="300px"
-          />
-          <p>
-            
-          </p>
+          <img src="" alt="" height="490px" width="300px" />
         </nuxt-link>
       </div>
       <div class="cardNintendo6">
         <nuxt-link to="/">
-          <img
-            src=""
-            alt=""
-            height="490px"
-            width="300px"
-          />
-          <p>
-
-          </p>
+          <img src="" alt="" height="490px" width="300px" />
+          <p></p>
         </nuxt-link>
       </div>
       <div class="cardNintendo7">
         <nuxt-link to="/">
-          <img
-            src=""
-            alt=""
-            height="490px"
-            width="300px"
-          />
-          <p>
-            
-          </p>
+          <img src="" alt="" height="490px" width="300px" />
+          <p></p>
         </nuxt-link>
       </div>
       <div class="cardNintendo8">
         <nuxt-link to="/">
-          <img
-            src=""
-            alt=""
-            height="490px"
-            width="300px"
-          />
-          <p>
-            
-          </p>
+          <img src="" alt="" height="490px" width="300px" />
+          <p></p>
         </nuxt-link>
       </div>
       <div class="cardNintendo9">
         <nuxt-link to="/">
-          <img
-            src=""
-            alt=""
-            height="490px"
-            width="300px"
-          />
-          <p>
-
-          </p>
+          <img src="" alt="" height="490px" width="300px" />
+          <p></p>
         </nuxt-link>
       </div>
     </div>
@@ -145,5 +105,5 @@
 </template>
 
 <style>
-@import "../assets/css/estilo.scss";
+@import '../assets/css/estilo.scss';
 </style>
