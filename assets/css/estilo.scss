@@ -275,6 +275,22 @@
 
 /*  Página Sony */
 
+.ps5grid{
+    display: grid;
+    grid-template-columns: repeat(2);
+    grid-template-rows: repeat(auto);
+}
+
+.ps5img{
+    grid-column: 1/2;
+    grid-row: 1/3;
+}
+.ps5text{
+    grid-column: 2/2;
+    grid-row: 1/3;
+    text-align: center;
+    padding-top: 100px;
+}
 
 .containerSony{
     display: grid;
@@ -1355,8 +1371,157 @@
     .card6 p {
         font-size: 20px;
     }
+    .containerSony {
+        display: grid;
+        grid-template-columns: repeat(3 , 1fr);
+        grid-template-rows: repeat(auto, 1fr);
+        padding-top: 10px;
+        padding-left: 20px;
+        padding-bottom: 20px;
+        grid-gap: 10px;
+    }
+    .cardsony1{
+        grid-column: 1 / 1;
+        grid-row: 1 / 3;
+        height: 430px;
+        width: 250px;
+        margin-left: auto;
+        margin-right: auto;
+    }
 
+    .cardsony1 img {
+        width: 250px;
+        height: 330px;
+    }
     
+    .cardsony1 p {
+        font-size: 20px;
+    }
+
+    .cardsony2 {
+        grid-column: 2 / 2;
+        grid-row: 1 / 3;
+        height: 430px;
+        width: 250px;
+        margin-left: auto;
+        margin-right: auto;
+    }   
+    .cardsony2 img {
+        width: 250px;
+        height: 330px;
+    }
+    .cardsony2 p {
+        font-size: 20px;
+    }
+
+    .cardsony3 {
+        grid-column: 3 / 3;
+        grid-row: 1 / 3;
+        height: 430px;
+        width: 250px;
+        margin-left: auto;
+        margin-right: auto;
+    }   
+    .cardsony3 img {
+        width: 250px;
+        height: 330px;
+    }
+    .cardsony3 p {
+        font-size: 20px;
+    }
+
+    .cardsony4 {
+        grid-column: 1 / 1;
+        grid-row: 2 / 5;
+        height: 430px;
+        width: 250px;
+        margin-left: auto;
+        margin-right: auto;
+    }   
+    .cardsony4 img {
+        width: 250px;
+        height: 330px;
+    }
+    .cardsony4 p {
+        font-size: 20px;
+    }
+    .cardsony5 {
+        grid-column: 2 / 2;
+        grid-row: 3 / 6;
+        height: 430px;
+        width: 250px;
+        margin-left: auto;
+        margin-right: auto;
+    }   
+    .cardsony5 img {
+        width: 250px;
+        height: 330px;
+    }
+    .cardsony5 p {
+        font-size: 20px;
+    }
+
+    .cardsony6 {
+        grid-column: 3 / 3;
+        grid-row: 3 / 6;
+        height: 430px;
+        width: 250px;
+        margin-left: auto;
+        margin-right: auto;
+    }   
+    .cardsony6 img {
+        width: 250px;
+        height: 330px;
+    }
+    .cardsony6 p {
+        font-size: 20px;
+    }
+    .cardsony7 {
+        grid-column: 1 / 1;
+        grid-row: 6 / 9;
+        height: 430px;
+        width: 250px;
+        margin-left: auto;
+        margin-right: auto;
+    }   
+    .cardsony7 img {
+        width: 250px;
+        height: 330px;
+    }
+    .cardsony7 p {
+        font-size: 20px;
+    }
+
+    .cardsony8 {
+        grid-column: 2 / 2;
+        grid-row: 6 / 9;
+        height: 430px;
+        width: 250px;
+        margin-left: auto;
+        margin-right: auto;
+    }   
+    .cardsony8 img {
+        width: 250px;
+        height: 330px;
+    }
+    .cardsony8 p {
+        font-size: 20px;
+    }
+    .cardsony9 {
+        grid-column: 3 / 3;
+        grid-row: 6 / 9;
+        height: 430px;
+        width: 250px;
+        margin-left: auto;
+        margin-right: auto;
+    }   
+    .cardsony9 img {
+        width: 250px;
+        height: 330px;
+    }
+    .cardsony9 p {
+        font-size: 20px;
+    }
 }
 
 @media (max-width: 800px) {
@@ -1476,8 +1641,175 @@
     .card6 p {
         font-size: 20px;
     }
+
+    .containerSony {
+        display: grid;
+        grid-template-columns: repeat(2 , 1fr);
+        grid-template-rows: repeat(auto, 1fr);
+        padding-top: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 20px;
+        grid-gap: 10px;
+    }
+
+    .cardsony1{
+        grid-column: 1 / 1;
+        grid-row: 1 / 3;
+        height: 430px;
+        width: 250px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+
+    .cardsony1 img {
+        width: 250px;
+        height: 330px;
+    }
+    
+    .cardsony1 p {
+        font-size: 20px;
+    }
+
+    .cardsony2 {
+        grid-column: 2 / 2;
+        grid-row: 1 / 3;
+        height: 430px;
+        width: 250px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }   
+    .cardsony2 img {
+        width: 250px;
+        height: 330px;
+    }
+    .cardsony2 p {
+        font-size: 20px;
+    }
+
+    .cardsony3 {
+        grid-column: 1 / 1;
+        grid-row: 2 / 5;
+        height: 430px;
+        width: 250px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }   
+    .cardsony3 img {
+        width: 250px;
+        height: 330px;
+    }
+    .cardsony3 p {
+        font-size: 20px;
+    }
+
+    .cardsony4 {
+        grid-column: 2 / 2;
+        grid-row: 3 / 6;
+        height: 430px;
+        width: 250px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }   
+    .cardsony4 img {
+        width: 250px;
+        height: 330px;
+    }
+    .cardsony4 p {
+        font-size: 20px;
+    }
+
+    .cardsony5 {
+        grid-column: 1 / 1;
+        grid-row: 6 / 9;
+        height: 430px;
+        width: 250px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }   
+    .cardsony5 img {
+        width: 250px;
+        height: 330px;
+    }
+    .cardsony5 p {
+        font-size: 20px;
+    }
+    .cardsony6 {
+        grid-column: 2 / 2;
+        grid-row: 6 / 9;
+        height: 430px;
+        width: 250px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }   
+    .cardsony6 img {
+        width: 250px;
+        height: 330px;
+    }
+    .cardsony6 p {
+        font-size: 20px;
+    }
+    .cardsony7 {
+        grid-column: 1 / 1;
+        grid-row: 9 / 12;
+        height: 430px;
+        width: 250px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }   
+    .cardsony7 img {
+        width: 250px;
+        height: 330px;
+    }
+    .cardsony7 p {
+        font-size: 20px;
+    }
+    .cardsony8 {
+        grid-column: 1 / 1;
+        grid-row: 12 / 15;
+        height: 430px;
+        width: 250px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }   
+    .cardsony8 img {
+        width: 250px;
+        height: 330px;
+    }
+    .cardsony8 p {
+        font-size: 20px;
+    }
+    .cardsony9 {
+        grid-column: 2 / 2;
+        grid-row: 12 / 15;
+        height: 430px;
+        width: 250px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }   
+    .cardsony9 img {
+        width: 250px;
+        height: 330px;
+    }
+    .cardsony9 p {
+        font-size: 20px;
+    }
+    .mb-3{
+        width: 40px;
+        float: left;
+        margin: 0 10px 10px 0;
+    }
 }
-@media (max-width: 800px){
+@media (max-width: 610px){
     .container1 {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
@@ -1570,6 +1902,142 @@
         height: 330px;
     }
     .card6 p {
+        font-size: 20px;
+    }
+    .containerSony {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(auto, 1fr);
+        padding-top: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 20px;
+        grid-gap: 10px;
+    }
+
+    .cardsony1{
+        grid-column: 1 / 1;
+        grid-row: 1 / 3;
+        height: 430px;
+        width: 250px;
+    }
+
+    .cardsony1 img {
+        width: 250px;
+        height: 330px;
+    }
+    
+    .cardsony1 p {
+        font-size: 20px;
+    }
+
+    .cardsony2 {
+        grid-column: 1 / 1;
+        grid-row: 3 / 6;
+        height: 430px;
+        width: 250px;
+    }   
+    .cardsony2 img {
+        width: 250px;
+        height: 330px;
+    }
+    .cardsony2 p {
+        font-size: 20px;
+    }
+
+    .cardsony3 {
+        grid-column: 1 / 1;
+        grid-row: 6 / 9;
+        height: 430px;
+        width: 250px;
+    }   
+    .cardsony3 img {
+        width: 250px;
+        height: 330px;
+    }
+    .cardsony3 p {
+        font-size: 20px;
+    }
+
+    .cardsony4 {
+        grid-column: 1 / 1;
+        grid-row: 9 / 12;
+        height: 430px;
+        width: 250px;
+    }   
+    .cardsony4 img {
+        width: 250px;
+        height: 330px;
+    }
+    .cardsony4 p {
+        font-size: 20px;
+    }
+
+    .cardsony5 {
+        grid-column: 1 / 1;
+        grid-row: 12 / 15;
+        height: 430px;
+        width: 250px;
+    }   
+    .cardsony5 img {
+        width: 250px;
+        height: 330px;
+    }
+    .cardsony5 p {
+        font-size: 20px;
+    }
+    .cardsony6 {
+        grid-column: 1 / 1;
+        grid-row: 15 / 18;
+        height: 430px;
+        width: 250px;
+    }   
+    .cardsony6 img {
+        width: 250px;
+        height: 330px;
+    }
+    .cardsony6 p {
+        font-size: 20px;
+    }
+
+    .cardsony7 {
+        grid-column: 1 / 1;
+        grid-row: 15 / 18;
+        height: 430px;
+        width: 250px;
+    }   
+    .cardsony7 img {
+        width: 250px;
+        height: 330px;
+    }
+    .cardsony7 p {
+        font-size: 20px;
+    }
+
+    .cardsony8 {
+        grid-column: 1 / 1;
+        grid-row: 15 / 18;
+        height: 430px;
+        width: 250px;
+    }   
+    .cardsony8 img {
+        width: 250px;
+        height: 330px;
+    }
+    .cardsony8 p {
+        font-size: 20px;
+    }
+    .cardsony9 {
+        grid-column: 1 / 1;
+        grid-row: 15 / 18;
+        height: 430px;
+        width: 250px;
+    }   
+    .cardsony9 img {
+        width: 250px;
+        height: 330px;
+    }
+    .cardsony9 p {
         font-size: 20px;
     }
 }

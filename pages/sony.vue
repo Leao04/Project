@@ -2,47 +2,70 @@
   <div>
     <div>
       <img
-        src="https://cdn.ome.lt/IUS9RucXlM7uyNyqr0n8Xo7n1iw=/970x360/smart/uploads/conteudo/fotos/playstation-familia.jpg"
-        alt="PlayStation 1, 2, 3 e 4"
+        src="https://images.hdqwalls.com/wallpapers/playstation-logo-background-4k-u9.jpg"
+        alt="PlayStation"
         width="100%"
-        height="40%"
+        height="600px"
       />
     </div>
-    <div>
-      <nuxt-link to="/">
-        <b-card
-          overlay
-          img-src="https://cache.desktopnexus.com/thumbseg/443/443592-bigthumbnail.jpg"
-          img-height="600px"
-          img-alt="PlayStation 3"
-          text-variant="black"
-          title="PlayStation 3"
+    <div class="ps5grid">
+      <div class="ps5img">
+        <img src="../assets/img/PS5.jpg" alt="Imagem Xis" />
+      </div>
+      <div class="ps5text">
+        <h5>PlayStation 5</h5>
+        <p>
+          <b>CPU:</b> x86-64-AMD Ryzen™ “Zen 2” / 8 Tópicos / 16 fundamentais /
+          Frequência variável, até 3.5 GHz;
+          <br />
+          <b>GPU:</b> mecanismo de gráficos baseado em AMD Radeon™ RDNA 2 /
+          Aceleração de traçado de raios / Frequência variável, até 2.23 GHz
+          (10.3 TFLOPS);
+          <br />
+          <b>Memória do Sistema:</b> GDDR6 16 GB / Largura de banda de 448 GB/s;
+          <br />
+          <b>SSD:</b> 825 GB / Largura de banda de leitura de 5.5 GB/s (Raw);
+          <br />
+          <b>Disco de Jogo PS5:</b> ultra HD Blu-ray, até 100 GB/disco;
+          <br />
+          <b>Saída de Vídeo:</b> suporte a TVs de 120Hz 4K, TVs 8K, VRR
+          (especificado pelo HDMI versão 2.1);
+          <br />
+          <b>Áudio:</b> Tempest 3D AudioTech.
+        </p>
+        <a
+          href="https://www.kabum.com.br/produto/128245/console-sony-playstation-5-digital-edition"
         >
-          <b-card-text>
-            O PlayStation 3 (PS3) é um console de videogames desenvolvido pela
-            Sony Computer Entertainment. É o sucessor do PlayStation 2 e faz
-            parte da marca PlayStation de consoles. Foi lançado em 11 de
-            novembro de 2006, no Japão, 17 de novembro de 2006 na América do
-            Norte e em 23 de março de 2007 na Europa e Oceania.
-          </b-card-text>
-        </b-card>
-      </nuxt-link>
-    </div>
-    <div>
-      <nuxt-link to="/">
-        <b-card
-          overlay
-          img-src="https://blog.br.playstation.com/tachyon/sites/4/2019/01/17_PS4Pro.jpg?resize=1088,612&crop_strategy=smart"
-          img-alt="PlayStation 4"
-          text-variant="black"
-          title="PlayStation 4"
+          <img
+            src="https://logodownload.org/wp-content/uploads/2017/11/kabum-logo.png"
+            alt="PlayStation 5 Kabum"
+            height="50px"
+            width="100px"
+          />
+        </a>
+        <a
+          href="https://www.amazon.com.br/PlayStation-Console-PlayStation%C2%AE5/dp/B088GNRX3J/ref=sr_1_1?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=9TV7XMOGWX5H&dchild=1&keywords=playstation+5&qid=1605120242&s=videogames&sprefix=plays%2Cvideogames%2C287&sr=1-1"
         >
-          <b-card-text>
-            PlayStation 4 é um console de jogos da oitava geração.
-          </b-card-text>
-        </b-card>
-      </nuxt-link>
+          <img
+            src="https://media.corporate-ir.net/media_files/IROL/17/176060/Oct18/Amazon%20logo.PNG"
+            alt="PlayStation 5 Amazon"
+            height="50px"
+            width="120px"
+          />
+        </a>
+        <a
+          href="https://www.pontofrio.com.br/Games/playstation5/consoles-playstation5/console-playstation-5-controle-sem-fio-dualsense-55010438.html"
+        >
+          <img
+            src="https://cms-faq.s3-sa-east-1.amazonaws.com/hmg/images/pontofrio.png"
+            alt="PlayStation 5 Pontofrio"
+            height="50px"
+            width="150px"
+          />
+        </a>
+      </div>
     </div>
+
     <div class="containerSony">
       <div class="cardsony1">
         <nuxt-link to="/lançamentos">
