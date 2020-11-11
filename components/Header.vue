@@ -21,7 +21,7 @@
       <div class="nintendo">
         <nuxt-link to="nintendo">Nintendo</nuxt-link>
       </div>
-      <div class="computador">
+      <div class="blog">
         <nuxt-link to="/">Blog</nuxt-link>
       </div>
       <div class="login">

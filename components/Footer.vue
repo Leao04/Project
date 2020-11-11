@@ -2,7 +2,7 @@
   <div>
     <div class="rodape">
       <div class="consoles">
-        <nuxt-link to="/">Consoles</nuxt-link>
+        <h5>Consoles</h5>
       </div>
       <div class="xbox">
         <nuxt-link to="/microsoft">Microsoft</nuxt-link>
@@ -17,7 +17,7 @@
         <hr />
       </div>
       <div class="social">
-        <nuxt-link to="/">Redes Sociais</nuxt-link>
+        <h5>Redes Sociais</h5>
       </div>
       <div class="facebook">
         <nuxt-link to="/">Facebook</nuxt-link>
@@ -27,27 +27,8 @@
         <nuxt-link to="/">Instagram</nuxt-link>
         <hr />
       </div>
-      <div class="editoriais">
-        <p>Editoriais</p>
-      </div>
-      <div class="animes">
-        <nuxt-link to="/">Animes</nuxt-link>
-        <hr />
-      </div>
-      <div class="tv">
-        <nuxt-link to="/">TV</nuxt-link>
-        <hr />
-      </div>
-      <div class="previews">
-        <nuxt-link to="/">Previews</nuxt-link>
-        <hr />
-      </div>
-      <div class="cinema">
-        <nuxt-link to="/filmes">Cinema</nuxt-link>
-        <hr />
-      </div>
       <div class="ign">
-        <p>IGN Brasil</p>
+        <h5>IGN Brasil</h5>
       </div>
       <div class="work">
         <nuxt-link to="/trabalhe-conosco">Trabalhe conosco</nuxt-link>

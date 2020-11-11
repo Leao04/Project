@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div>
+    <div class="carrossel">
       <b-carousel
         id="carousel-1"
         v-model="slide"
@@ -45,9 +45,11 @@
       </b-carousel>
     </div>
     <br />
+    <h1 class="evento">O maior evento da América Latina</h1>
+    <div class="cavaleiro">
+      <img src="../assets/img/comic.jpg" alt="Imamgem do evento comic con" />
+    </div>
     <div class="comic">
-      <h1 class="evento">O maior evento da América Latina</h1>
-      <img class="con" src="../assets/img/comic.jpg" alt="imagem" />
       <br />
       <br />
       <div>
