@@ -47,7 +47,11 @@
     <br />
     <h1 class="evento">O maior evento da América Latina</h1>
     <div class="cavaleiro">
-      <img src="../assets/img/comic.jpg" alt="Imamgem do evento comic con" />
+      <img
+        src="../assets/img/comic.jpg"
+        height="500px"
+        alt="Imamgem do evento comic con"
+      />
     </div>
     <div class="comic">
       <br />
@@ -175,19 +179,18 @@ export default {
 <script src="../dist/countdown-timer.js"></script>
 //
 <script>
-// let countdownTimer = new TenUp.CountdownTimer('.countdown-timer', {
-//   onCreate: function (instance) {
-//     console.log('onCreate callback', instance)
-//   },
+let countdownTimer = new TenUp.CountdownTimer('.countdown-timer', {
+  onCreate: function (instance) {
+    console.log('onCreate callback', instance)
+  },
 
-//   onEnd: function (instance) {
-//     console.log('onEnd callback', instance)
-//   },
-
-//   onTick: function (instance) {
-//     console.log('onTick callback', instance)
-//   },
-// })
+  onEnd: function (instance) {
+    console.log('onEnd callback', instance)
+  },
+  onTick: function (instance) {
+    console.log('onTick callback', instance)
+  },
+})
 //
 </script>
 
