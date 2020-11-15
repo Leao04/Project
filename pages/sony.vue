@@ -6,11 +6,12 @@
         alt="PlayStation"
         width="100%"
         height="600px"
+        class="bannerps5"
       />
     </div>
     <div class="ps5grid">
       <div class="ps5img">
-        <img src="../assets/img/PS5.jpg" alt="Imagem Xis" />
+        <img src="../assets/img/PS5.jpg" alt="Imagem PS5" />
       </div>
       <div class="ps5text">
         <h5>PlayStation 5</h5>

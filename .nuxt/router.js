@@ -3,22 +3,22 @@ import Router from 'vue-router'
 import { interopDefault } from './utils'
 import scrollBehavior from './router.scrollBehavior.js'
 
-const _401fe1d5 = () => interopDefault(import('..\\pages\\control.vue' /* webpackChunkName: "pages/control" */))
-const _b55ba24c = () => interopDefault(import('..\\pages\\criar-post.vue' /* webpackChunkName: "pages/criar-post" */))
-const _e7d9c13a = () => interopDefault(import('..\\pages\\desconto.vue' /* webpackChunkName: "pages/desconto" */))
-const _0ec71b9e = () => interopDefault(import('..\\pages\\fale-conosco.vue' /* webpackChunkName: "pages/fale-conosco" */))
-const _5fc82e6a = () => interopDefault(import('..\\pages\\filmes.vue' /* webpackChunkName: "pages/filmes" */))
-const _f45840fc = () => interopDefault(import('..\\pages\\genshin.vue' /* webpackChunkName: "pages/genshin" */))
-const _75dfcdad = () => interopDefault(import('..\\pages\\lançamentos.vue' /* webpackChunkName: "pages/lançamentos" */))
-const _0efd9120 = () => interopDefault(import('..\\pages\\logado.vue' /* webpackChunkName: "pages/logado" */))
-const _1f171de1 = () => interopDefault(import('..\\pages\\login.vue' /* webpackChunkName: "pages/login" */))
-const _6cf9e4e6 = () => interopDefault(import('..\\pages\\microsoft.vue' /* webpackChunkName: "pages/microsoft" */))
-const _15993eed = () => interopDefault(import('..\\pages\\nintendo.vue' /* webpackChunkName: "pages/nintendo" */))
-const _26f0d7df = () => interopDefault(import('..\\pages\\sony.vue' /* webpackChunkName: "pages/sony" */))
-const _06b709dc = () => interopDefault(import('..\\pages\\supermash.vue' /* webpackChunkName: "pages/supermash" */))
-const _25d50c44 = () => interopDefault(import('..\\pages\\trabalhe-conosco.vue' /* webpackChunkName: "pages/trabalhe-conosco" */))
-const _05d600dc = () => interopDefault(import('..\\pages\\post\\_id.vue' /* webpackChunkName: "pages/post/_id" */))
-const _556f7aca = () => interopDefault(import('..\\pages\\index.vue' /* webpackChunkName: "pages/index" */))
+const _87ec388a = () => interopDefault(import('..\\pages\\control.vue' /* webpackChunkName: "pages/control" */))
+const _abf5c998 = () => interopDefault(import('..\\pages\\criar-post.vue' /* webpackChunkName: "pages/criar-post" */))
+const _e52d4b86 = () => interopDefault(import('..\\pages\\desconto.vue' /* webpackChunkName: "pages/desconto" */))
+const _c7749fea = () => interopDefault(import('..\\pages\\fale-conosco.vue' /* webpackChunkName: "pages/fale-conosco" */))
+const _534357c4 = () => interopDefault(import('..\\pages\\filmes.vue' /* webpackChunkName: "pages/filmes" */))
+const _01bde168 = () => interopDefault(import('..\\pages\\genshin.vue' /* webpackChunkName: "pages/genshin" */))
+const _078a6c93 = () => interopDefault(import('..\\pages\\lançamentos.vue' /* webpackChunkName: "pages/lançamentos" */))
+const _0278ba7a = () => interopDefault(import('..\\pages\\logado.vue' /* webpackChunkName: "pages/logado" */))
+const _71446147 = () => interopDefault(import('..\\pages\\login.vue' /* webpackChunkName: "pages/login" */))
+const _d329f568 = () => interopDefault(import('..\\pages\\microsoft.vue' /* webpackChunkName: "pages/microsoft" */))
+const _16ef79c7 = () => interopDefault(import('..\\pages\\nintendo.vue' /* webpackChunkName: "pages/nintendo" */))
+const _940ae08e = () => interopDefault(import('..\\pages\\sony.vue' /* webpackChunkName: "pages/sony" */))
+const _30282a42 = () => interopDefault(import('..\\pages\\supermash.vue' /* webpackChunkName: "pages/supermash" */))
+const _3497cd1e = () => interopDefault(import('..\\pages\\trabalhe-conosco.vue' /* webpackChunkName: "pages/trabalhe-conosco" */))
+const _26861ff8 = () => interopDefault(import('..\\pages\\post\\_id.vue' /* webpackChunkName: "pages/post/_id" */))
+const _b0c683a0 = () => interopDefault(import('..\\pages\\index.vue' /* webpackChunkName: "pages/index" */))
 
 // TODO: remove in Nuxt 3
 const emptyFn = () => {}
@@ -38,67 +38,67 @@ export const routerOptions = {
 
   routes: [{
     path: "/control",
-    component: _401fe1d5,
+    component: _87ec388a,
     name: "control"
   }, {
     path: "/criar-post",
-    component: _b55ba24c,
+    component: _abf5c998,
     name: "criar-post"
   }, {
     path: "/desconto",
-    component: _e7d9c13a,
+    component: _e52d4b86,
     name: "desconto"
   }, {
     path: "/fale-conosco",
-    component: _0ec71b9e,
+    component: _c7749fea,
     name: "fale-conosco"
   }, {
     path: "/filmes",
-    component: _5fc82e6a,
+    component: _534357c4,
     name: "filmes"
   }, {
     path: "/genshin",
-    component: _f45840fc,
+    component: _01bde168,
     name: "genshin"
   }, {
     path: "/lançamentos",
-    component: _75dfcdad,
+    component: _078a6c93,
     name: "lançamentos"
   }, {
     path: "/logado",
-    component: _0efd9120,
+    component: _0278ba7a,
     name: "logado"
   }, {
     path: "/login",
-    component: _1f171de1,
+    component: _71446147,
     name: "login"
   }, {
     path: "/microsoft",
-    component: _6cf9e4e6,
+    component: _d329f568,
     name: "microsoft"
   }, {
     path: "/nintendo",
-    component: _15993eed,
+    component: _16ef79c7,
     name: "nintendo"
   }, {
     path: "/sony",
-    component: _26f0d7df,
+    component: _940ae08e,
     name: "sony"
   }, {
     path: "/supermash",
-    component: _06b709dc,
+    component: _30282a42,
     name: "supermash"
   }, {
     path: "/trabalhe-conosco",
-    component: _25d50c44,
+    component: _3497cd1e,
     name: "trabalhe-conosco"
   }, {
     path: "/post/:id?",
-    component: _05d600dc,
+    component: _26861ff8,
     name: "post-id"
   }, {
     path: "/",
-    component: _556f7aca,
+    component: _b0c683a0,
     name: "index"
   }],
 
