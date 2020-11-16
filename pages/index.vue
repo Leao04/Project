@@ -57,30 +57,20 @@
       <br />
       <br />
       <div>
-        <time
-          class="countdown-timer tenup-countdown-timer"
-          datetime="2046-01-01T00:00:00"
-          role="timer"
-          aria-label="Countdown timer"
-          aria-atomic="true"
-          aria-live="off"
-        >
-          <span class="tenup-countdown-timer-weeks" aria-label="8 weeks"
-            >8 weeks</span
-          >,
-          <span class="tenup-countdown-timer-days" aria-label="1 day"
-            >1 day</span
-          >,
-          <span class="tenup-countdown-timer-hours" aria-label="14 hours"
-            >14 hours</span
-          >,
-          <span class="tenup-countdown-timer-minutes" aria-label="18 minutes"
-            >18 minutes</span
-          >,
-          <span aria-label="12 seconds" aria-hidden="true" kkl=""
-            >12 seconds</span
-          ></time
-        >
+        <h1>Contagem regressiva</h1>
+        <form name="form_main">
+          <label for="numero">Data:</label>
+          <input name="date_end" type="date" onblur="myFunction()" />
+          <br />
+        </form>
+        <div class="container">
+          <ul>
+            <li><span id="days"></span>days</li>
+            <li><span id="hours"></span>Hours</li>
+            <li><span id="minutes"></span>Minutes</li>
+            <li><span id="seconds"></span>Seconds</li>
+          </ul>
+        </div>
       </div>
     </div>
     <div class="container1">
@@ -145,8 +135,16 @@
   </div>
 </template>
 
+<script src="../dist/CountDown.js"></script>
 <script>
 export default {
+  data() {
+    return {
+      slide: 0,
+      sliding: null,
+      posts: [],
+    }
+  },
   async fetch() {
     const posts = await this.$axios.$get('posts')
     const users = await this.$axios.$get('users')
@@ -156,13 +154,6 @@ export default {
         author: users.find((user) => user._id === post.author).name,
       }))
       .sort((a, b) => a.title.localeCompare(b.title))
-  },
-  data() {
-    return {
-      slide: 0,
-      sliding: null,
-      posts: [],
-    }
   },
 
   methods: {

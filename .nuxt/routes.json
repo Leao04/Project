@@ -3,112 +3,96 @@
     "name": "control",
     "path": "/control",
     "component": "C:\\\\Users\\\\lordv\\\\Documents\\\\GitHub\\\\Project\\\\pages\\\\control.vue",
-    "chunkName": "pages/control",
-    "_name": "_401fe1d5"
+    "chunkName": "pages/control"
   },
   {
     "name": "criar-post",
     "path": "/criar-post",
     "component": "C:\\\\Users\\\\lordv\\\\Documents\\\\GitHub\\\\Project\\\\pages\\\\criar-post.vue",
-    "chunkName": "pages/criar-post",
-    "_name": "_b55ba24c"
+    "chunkName": "pages/criar-post"
   },
   {
     "name": "desconto",
     "path": "/desconto",
     "component": "C:\\\\Users\\\\lordv\\\\Documents\\\\GitHub\\\\Project\\\\pages\\\\desconto.vue",
-    "chunkName": "pages/desconto",
-    "_name": "_e7d9c13a"
+    "chunkName": "pages/desconto"
   },
   {
     "name": "fale-conosco",
     "path": "/fale-conosco",
     "component": "C:\\\\Users\\\\lordv\\\\Documents\\\\GitHub\\\\Project\\\\pages\\\\fale-conosco.vue",
-    "chunkName": "pages/fale-conosco",
-    "_name": "_0ec71b9e"
+    "chunkName": "pages/fale-conosco"
   },
   {
     "name": "filmes",
     "path": "/filmes",
     "component": "C:\\\\Users\\\\lordv\\\\Documents\\\\GitHub\\\\Project\\\\pages\\\\filmes.vue",
-    "chunkName": "pages/filmes",
-    "_name": "_5fc82e6a"
+    "chunkName": "pages/filmes"
   },
   {
     "name": "genshin",
     "path": "/genshin",
     "component": "C:\\\\Users\\\\lordv\\\\Documents\\\\GitHub\\\\Project\\\\pages\\\\genshin.vue",
-    "chunkName": "pages/genshin",
-    "_name": "_f45840fc"
+    "chunkName": "pages/genshin"
   },
   {
     "name": "lançamentos",
     "path": "/lançamentos",
     "component": "C:\\\\Users\\\\lordv\\\\Documents\\\\GitHub\\\\Project\\\\pages\\\\lançamentos.vue",
-    "chunkName": "pages/lançamentos",
-    "_name": "_75dfcdad"
+    "chunkName": "pages/lançamentos"
   },
   {
     "name": "logado",
     "path": "/logado",
     "component": "C:\\\\Users\\\\lordv\\\\Documents\\\\GitHub\\\\Project\\\\pages\\\\logado.vue",
-    "chunkName": "pages/logado",
-    "_name": "_0efd9120"
+    "chunkName": "pages/logado"
   },
   {
     "name": "login",
     "path": "/login",
     "component": "C:\\\\Users\\\\lordv\\\\Documents\\\\GitHub\\\\Project\\\\pages\\\\login.vue",
-    "chunkName": "pages/login",
-    "_name": "_1f171de1"
+    "chunkName": "pages/login"
   },
   {
     "name": "microsoft",
     "path": "/microsoft",
     "component": "C:\\\\Users\\\\lordv\\\\Documents\\\\GitHub\\\\Project\\\\pages\\\\microsoft.vue",
-    "chunkName": "pages/microsoft",
-    "_name": "_6cf9e4e6"
+    "chunkName": "pages/microsoft"
   },
   {
     "name": "nintendo",
     "path": "/nintendo",
     "component": "C:\\\\Users\\\\lordv\\\\Documents\\\\GitHub\\\\Project\\\\pages\\\\nintendo.vue",
-    "chunkName": "pages/nintendo",
-    "_name": "_15993eed"
+    "chunkName": "pages/nintendo"
   },
   {
     "name": "sony",
     "path": "/sony",
     "component": "C:\\\\Users\\\\lordv\\\\Documents\\\\GitHub\\\\Project\\\\pages\\\\sony.vue",
-    "chunkName": "pages/sony",
-    "_name": "_26f0d7df"
+    "chunkName": "pages/sony"
   },
   {
     "name": "supermash",
     "path": "/supermash",
     "component": "C:\\\\Users\\\\lordv\\\\Documents\\\\GitHub\\\\Project\\\\pages\\\\supermash.vue",
-    "chunkName": "pages/supermash",
-    "_name": "_06b709dc"
+    "chunkName": "pages/supermash"
   },
   {
     "name": "trabalhe-conosco",
     "path": "/trabalhe-conosco",
     "component": "C:\\\\Users\\\\lordv\\\\Documents\\\\GitHub\\\\Project\\\\pages\\\\trabalhe-conosco.vue",
-    "chunkName": "pages/trabalhe-conosco",
-    "_name": "_25d50c44"
+    "chunkName": "pages/trabalhe-conosco"
   },
   {
     "name": "post-id",
     "path": "/post/:id?",
     "component": "C:\\\\Users\\\\lordv\\\\Documents\\\\GitHub\\\\Project\\\\pages\\\\post\\\\_id.vue",
-    "chunkName": "pages/post/_id",
-    "_name": "_05d600dc"
+    "chunkName": "pages/post/_id"
   },
   {
     "name": "index",
     "path": "/",
     "component": "C:\\\\Users\\\\lordv\\\\Documents\\\\GitHub\\\\Project\\\\pages\\\\index.vue",
-    "chunkName": "pages/index",
-    "_name": "_556f7aca"
+    "chunkName": "pages/index"
   }
 ]
