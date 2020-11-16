@@ -203,7 +203,3 @@
     </div>
   </div>
 </template>
-
-<style>
-@import '../assets/css/estilo.scss';
-</style>
