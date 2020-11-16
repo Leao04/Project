@@ -2840,4 +2840,4 @@
       l(window.TenUp) !== 'object' && (window.TenUp = {}),
         (window.TenUp.CountdownTimer = f)
     }
-  ],
+  ]
