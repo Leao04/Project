@@ -2,113 +2,113 @@
   {
     "name": "control",
     "path": "/control",
-    "component": "C:\\\\Users\\\\malve\\\\Documents\\\\GitHub\\\\Project\\\\pages\\\\control.vue",
+    "component": "C:\\\\Users\\\\lordv\\\\Documents\\\\GitHub\\\\Project\\\\pages\\\\control.vue",
     "chunkName": "pages/control",
-    "_name": "_87ec388a"
+    "_name": "_401fe1d5"
   },
   {
     "name": "criar-post",
     "path": "/criar-post",
-    "component": "C:\\\\Users\\\\malve\\\\Documents\\\\GitHub\\\\Project\\\\pages\\\\criar-post.vue",
+    "component": "C:\\\\Users\\\\lordv\\\\Documents\\\\GitHub\\\\Project\\\\pages\\\\criar-post.vue",
     "chunkName": "pages/criar-post",
-    "_name": "_abf5c998"
+    "_name": "_b55ba24c"
   },
   {
     "name": "desconto",
     "path": "/desconto",
-    "component": "C:\\\\Users\\\\malve\\\\Documents\\\\GitHub\\\\Project\\\\pages\\\\desconto.vue",
+    "component": "C:\\\\Users\\\\lordv\\\\Documents\\\\GitHub\\\\Project\\\\pages\\\\desconto.vue",
     "chunkName": "pages/desconto",
-    "_name": "_e52d4b86"
+    "_name": "_e7d9c13a"
   },
   {
     "name": "fale-conosco",
     "path": "/fale-conosco",
-    "component": "C:\\\\Users\\\\malve\\\\Documents\\\\GitHub\\\\Project\\\\pages\\\\fale-conosco.vue",
+    "component": "C:\\\\Users\\\\lordv\\\\Documents\\\\GitHub\\\\Project\\\\pages\\\\fale-conosco.vue",
     "chunkName": "pages/fale-conosco",
-    "_name": "_c7749fea"
+    "_name": "_0ec71b9e"
   },
   {
     "name": "filmes",
     "path": "/filmes",
-    "component": "C:\\\\Users\\\\malve\\\\Documents\\\\GitHub\\\\Project\\\\pages\\\\filmes.vue",
+    "component": "C:\\\\Users\\\\lordv\\\\Documents\\\\GitHub\\\\Project\\\\pages\\\\filmes.vue",
     "chunkName": "pages/filmes",
-    "_name": "_534357c4"
+    "_name": "_5fc82e6a"
   },
   {
     "name": "genshin",
     "path": "/genshin",
-    "component": "C:\\\\Users\\\\malve\\\\Documents\\\\GitHub\\\\Project\\\\pages\\\\genshin.vue",
+    "component": "C:\\\\Users\\\\lordv\\\\Documents\\\\GitHub\\\\Project\\\\pages\\\\genshin.vue",
     "chunkName": "pages/genshin",
-    "_name": "_01bde168"
+    "_name": "_f45840fc"
   },
   {
     "name": "lançamentos",
     "path": "/lançamentos",
-    "component": "C:\\\\Users\\\\malve\\\\Documents\\\\GitHub\\\\Project\\\\pages\\\\lançamentos.vue",
+    "component": "C:\\\\Users\\\\lordv\\\\Documents\\\\GitHub\\\\Project\\\\pages\\\\lançamentos.vue",
     "chunkName": "pages/lançamentos",
-    "_name": "_078a6c93"
+    "_name": "_75dfcdad"
   },
   {
     "name": "logado",
     "path": "/logado",
-    "component": "C:\\\\Users\\\\malve\\\\Documents\\\\GitHub\\\\Project\\\\pages\\\\logado.vue",
+    "component": "C:\\\\Users\\\\lordv\\\\Documents\\\\GitHub\\\\Project\\\\pages\\\\logado.vue",
     "chunkName": "pages/logado",
-    "_name": "_0278ba7a"
+    "_name": "_0efd9120"
   },
   {
     "name": "login",
     "path": "/login",
-    "component": "C:\\\\Users\\\\malve\\\\Documents\\\\GitHub\\\\Project\\\\pages\\\\login.vue",
+    "component": "C:\\\\Users\\\\lordv\\\\Documents\\\\GitHub\\\\Project\\\\pages\\\\login.vue",
     "chunkName": "pages/login",
-    "_name": "_71446147"
+    "_name": "_1f171de1"
   },
   {
     "name": "microsoft",
     "path": "/microsoft",
-    "component": "C:\\\\Users\\\\malve\\\\Documents\\\\GitHub\\\\Project\\\\pages\\\\microsoft.vue",
+    "component": "C:\\\\Users\\\\lordv\\\\Documents\\\\GitHub\\\\Project\\\\pages\\\\microsoft.vue",
     "chunkName": "pages/microsoft",
-    "_name": "_d329f568"
+    "_name": "_6cf9e4e6"
   },
   {
     "name": "nintendo",
     "path": "/nintendo",
-    "component": "C:\\\\Users\\\\malve\\\\Documents\\\\GitHub\\\\Project\\\\pages\\\\nintendo.vue",
+    "component": "C:\\\\Users\\\\lordv\\\\Documents\\\\GitHub\\\\Project\\\\pages\\\\nintendo.vue",
     "chunkName": "pages/nintendo",
-    "_name": "_16ef79c7"
+    "_name": "_15993eed"
   },
   {
     "name": "sony",
     "path": "/sony",
-    "component": "C:\\\\Users\\\\malve\\\\Documents\\\\GitHub\\\\Project\\\\pages\\\\sony.vue",
+    "component": "C:\\\\Users\\\\lordv\\\\Documents\\\\GitHub\\\\Project\\\\pages\\\\sony.vue",
     "chunkName": "pages/sony",
-    "_name": "_940ae08e"
+    "_name": "_26f0d7df"
   },
   {
     "name": "supermash",
     "path": "/supermash",
-    "component": "C:\\\\Users\\\\malve\\\\Documents\\\\GitHub\\\\Project\\\\pages\\\\supermash.vue",
+    "component": "C:\\\\Users\\\\lordv\\\\Documents\\\\GitHub\\\\Project\\\\pages\\\\supermash.vue",
     "chunkName": "pages/supermash",
-    "_name": "_30282a42"
+    "_name": "_06b709dc"
   },
   {
     "name": "trabalhe-conosco",
     "path": "/trabalhe-conosco",
-    "component": "C:\\\\Users\\\\malve\\\\Documents\\\\GitHub\\\\Project\\\\pages\\\\trabalhe-conosco.vue",
+    "component": "C:\\\\Users\\\\lordv\\\\Documents\\\\GitHub\\\\Project\\\\pages\\\\trabalhe-conosco.vue",
     "chunkName": "pages/trabalhe-conosco",
-    "_name": "_3497cd1e"
+    "_name": "_25d50c44"
   },
   {
     "name": "post-id",
     "path": "/post/:id?",
-    "component": "C:\\\\Users\\\\malve\\\\Documents\\\\GitHub\\\\Project\\\\pages\\\\post\\\\_id.vue",
+    "component": "C:\\\\Users\\\\lordv\\\\Documents\\\\GitHub\\\\Project\\\\pages\\\\post\\\\_id.vue",
     "chunkName": "pages/post/_id",
-    "_name": "_26861ff8"
+    "_name": "_05d600dc"
   },
   {
     "name": "index",
     "path": "/",
-    "component": "C:\\\\Users\\\\malve\\\\Documents\\\\GitHub\\\\Project\\\\pages\\\\index.vue",
+    "component": "C:\\\\Users\\\\lordv\\\\Documents\\\\GitHub\\\\Project\\\\pages\\\\index.vue",
     "chunkName": "pages/index",
-    "_name": "_b0c683a0"
+    "_name": "_556f7aca"
   }
 ]

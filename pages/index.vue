@@ -179,7 +179,6 @@ export default {
 <script src="../dist/countdown-timer.js"></script>
 //
 <script>
-/*
 let countdownTimer = new TenUp.CountdownTimer('.countdown-timer', {
   onCreate: function (instance) {
     console.log('onCreate callback', instance)
@@ -192,7 +191,6 @@ let countdownTimer = new TenUp.CountdownTimer('.countdown-timer', {
     console.log('onTick callback', instance)
   },
 })
-*/
 </script>
 
 <style>

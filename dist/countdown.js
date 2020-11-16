@@ -1,13 +1,13 @@
-let countdownTimer = new TenUp.CountdownTimer('.countdown-timer', {
-  onCreate: function (instance) {
+const countdownTimer = new TenUp.CountdownTimer('.countdown-timer', {
+  onCreate(instance) {
     console.log('onCreate callback', instance)
   },
 
-  onEnd: function (instance) {
+  onEnd(instance) {
     console.log('onEnd callback', instance)
   },
 
-  onTick: function (instance) {
+  onTick(instance) {
     console.log('onTick callback', instance)
   },
 })
