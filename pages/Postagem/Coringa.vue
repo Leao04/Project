@@ -1,5 +1,6 @@
 <template>
   <div>
+    <hr />
     <div class="Postagem1">
       <div class="Textopostagem">
         <h1>Coringa de Jared Leto voltará em Snyder Cut de Liga da Justiça</h1>

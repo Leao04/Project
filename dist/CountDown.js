@@ -24,5 +24,6 @@ function myFunction() {
   clearInterval(x)
   const dateend = document.form_main.date_end.value
   countdown = new Date(`${dateend} 00:00:00`).getTime()
+  // eslint-disable-next-line no-unused-vars
   x = setInterval(() => countDown(), myFunction(), second)
 }
