@@ -4,7 +4,7 @@ const hour = minute * 60
 const day = hour * 24
 
 let countdown = new Date('31/12/2020 00:00:00').getTime()
-let x = setInterval(() => countDown(), myFunction(), second)
+let x = setInterval(() => countDown(), second)
 
 function countDown() {
   const now = new Date(Date.now()).getTime()
@@ -24,5 +24,5 @@ function myFunction() {
   clearInterval(x)
   const dateend = document.form_main.date_end.value
   countdown = new Date(`${dateend} 00:00:00`).getTime()
-  x = setInterval(() => countDown(), second)
+  x = setInterval(() => countDown(), myFunction(), second)
 }
