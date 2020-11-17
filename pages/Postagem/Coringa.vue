@@ -13,13 +13,14 @@
           formato de minissérie de quatro episódios. A estreia está prevista
           para 2021 no HBO Max.
         </p>
-        <div class="VideoPostagem">
-          <iframe
-            src="http://widgets.ign.com/video/embed/content.html?url=https://www.ign.com/videos/2018/09/28/o-melhor-coringa-ign-br"
-            scrolling="no"
-            frameborder="0"
-            allowfullscreen
-          ></iframe>
+        <div class="imgPostagem">
+          <img
+            src="https://rollingstone.uol.com.br/media/_versions/coringa_-_reproducao_widelg.jpg"
+            height="100%"
+            width="100%"
+            alt=""
+            srcset=""
+          />
         </div>
         <div class="texto2">
           <p>

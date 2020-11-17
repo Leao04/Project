@@ -17,7 +17,17 @@ const _16ef79c7 = () => interopDefault(import('..\\pages\\nintendo.vue' /* webpa
 const _940ae08e = () => interopDefault(import('..\\pages\\sony.vue' /* webpackChunkName: "pages/sony" */))
 const _30282a42 = () => interopDefault(import('..\\pages\\supermash.vue' /* webpackChunkName: "pages/supermash" */))
 const _3497cd1e = () => interopDefault(import('..\\pages\\trabalhe-conosco.vue' /* webpackChunkName: "pages/trabalhe-conosco" */))
+const _3e8493e5 = () => interopDefault(import('..\\pages\\Postagem\\AOC.vue' /* webpackChunkName: "pages/Postagem/AOC" */))
 const _c4580596 = () => interopDefault(import('..\\pages\\Postagem\\Coringa.vue' /* webpackChunkName: "pages/Postagem/Coringa" */))
+const _2cbd274b = () => interopDefault(import('..\\pages\\Postagem\\Cyberpunk.vue' /* webpackChunkName: "pages/Postagem/Cyberpunk" */))
+const _5df84b8c = () => interopDefault(import('..\\pages\\Postagem\\Lancamento.vue' /* webpackChunkName: "pages/Postagem/Lancamento" */))
+const _048fef02 = () => interopDefault(import('..\\pages\\Postagem\\Netflix.vue' /* webpackChunkName: "pages/Postagem/Netflix" */))
+const _59850fc3 = () => interopDefault(import('..\\pages\\Postagem\\Pokemon.vue' /* webpackChunkName: "pages/Postagem/Pokemon" */))
+const _ed1d151e = () => interopDefault(import('..\\pages\\PostagemSony\\Descontos.vue' /* webpackChunkName: "pages/PostagemSony/Descontos" */))
+const _52d48713 = () => interopDefault(import('..\\pages\\PostagemSony\\Genshin.vue' /* webpackChunkName: "pages/PostagemSony/Genshin" */))
+const _60d5e958 = () => interopDefault(import('..\\pages\\PostagemSony\\Kingdom.vue' /* webpackChunkName: "pages/PostagemSony/Kingdom" */))
+const _6182353a = () => interopDefault(import('..\\pages\\PostagemSony\\Monster.vue' /* webpackChunkName: "pages/PostagemSony/Monster" */))
+const _c25ed378 = () => interopDefault(import('..\\pages\\PostagemSony\\StarWars.vue' /* webpackChunkName: "pages/PostagemSony/StarWars" */))
 const _26861ff8 = () => interopDefault(import('..\\pages\\post\\_id.vue' /* webpackChunkName: "pages/post/_id" */))
 const _b0c683a0 = () => interopDefault(import('..\\pages\\index.vue' /* webpackChunkName: "pages/index" */))
 
@@ -94,9 +104,49 @@ export const routerOptions = {
     component: _3497cd1e,
     name: "trabalhe-conosco"
   }, {
+    path: "/Postagem/AOC",
+    component: _3e8493e5,
+    name: "Postagem-AOC"
+  }, {
     path: "/Postagem/Coringa",
     component: _c4580596,
     name: "Postagem-Coringa"
+  }, {
+    path: "/Postagem/Cyberpunk",
+    component: _2cbd274b,
+    name: "Postagem-Cyberpunk"
+  }, {
+    path: "/Postagem/Lancamento",
+    component: _5df84b8c,
+    name: "Postagem-Lancamento"
+  }, {
+    path: "/Postagem/Netflix",
+    component: _048fef02,
+    name: "Postagem-Netflix"
+  }, {
+    path: "/Postagem/Pokemon",
+    component: _59850fc3,
+    name: "Postagem-Pokemon"
+  }, {
+    path: "/PostagemSony/Descontos",
+    component: _ed1d151e,
+    name: "PostagemSony-Descontos"
+  }, {
+    path: "/PostagemSony/Genshin",
+    component: _52d48713,
+    name: "PostagemSony-Genshin"
+  }, {
+    path: "/PostagemSony/Kingdom",
+    component: _60d5e958,
+    name: "PostagemSony-Kingdom"
+  }, {
+    path: "/PostagemSony/Monster",
+    component: _6182353a,
+    name: "PostagemSony-Monster"
+  }, {
+    path: "/PostagemSony/StarWars",
+    component: _c25ed378,
+    name: "PostagemSony-StarWars"
   }, {
     path: "/post/:id?",
     component: _26861ff8,

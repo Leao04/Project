@@ -75,61 +75,72 @@
     </div>
     <div class="container1">
       <div class="card1">
-        <img
-          src="https://sm.ign.com/t/ign_br/slotter/default/635655082846943146-cdzbueiuuaatgqb_q1f5.560.png"
-          alt=""
-          height="490px"
-          width="300px"
-        />
-        <p>Coringa de Jared Leto voltará em Snyder Cut de Liga da Justiça</p>
+        <nuxt-link to="/Postagem/Coringa">
+          <img
+            src="https://sm.ign.com/t/ign_br/slotter/default/635655082846943146-cdzbueiuuaatgqb_q1f5.560.png"
+            alt=""
+            height="490px"
+            width="300px"
+          />
+          <p>Coringa de Jared Leto voltará em Snyder Cut de Liga da Justiça</p>
+        </nuxt-link>
       </div>
-
       <div class="card2">
-        <img
-          src="https://sm.ign.com/t/ign_br/slotter/default/cp77-1920x1080-en-1583665789_v5es.560.jpg"
-          alt=""
-          height="490px"
-          width="300px"
-        />
-        <p>
-          Cyberpunk 2077: Lançamento, multiplayer, história, gameplay e mais
-        </p>
+        <nuxt-link to="/Postagem/Cyberpunk">
+          <img
+            src="https://sm.ign.com/t/ign_br/slotter/default/cp77-1920x1080-en-1583665789_v5es.560.jpg"
+            alt=""
+            height="490px"
+            width="300px"
+          />
+          <p>
+            Cyberpunk 2077: Lançamento, multiplayer, história, gameplay e mais
+          </p>
+        </nuxt-link>
       </div>
       <div class="card3">
-        <img
-          src="https://sm.ign.com/t/ign_br/slotter/default/crown-tundra-home_puba.560.png"
-          alt=""
-          height="490px"
-          width="300px"
-        />
-        <p>Pokémon Sword & Shield: Tudo sobre The Crown Tundra</p>
+        <nuxt-link to="/Postagem/Pokemon">
+          <img
+            src="https://sm.ign.com/t/ign_br/slotter/default/crown-tundra-home_puba.560.png"
+            alt=""
+            height="490px"
+            width="300px"
+          />
+          <p>Pokémon Sword & Shield: Tudo sobre The Crown Tundra</p>
+        </nuxt-link>
       </div>
       <div class="card4">
-        <img
-          src="https://sm.ign.com/t/ign_br/slotter/default/579b91e2b08074561cf3b8073878f301_stxy.560.png"
-          alt=""
-          height="490px"
-          width="300px"
-        />
-        <p>Netflix: As estreias de filmes e séries em novembro</p>
+        <nuxt-link to="/Postagem/Netflix">
+          <img
+            src="https://sm.ign.com/t/ign_br/slotter/default/579b91e2b08074561cf3b8073878f301_stxy.560.png"
+            alt=""
+            height="490px"
+            width="300px"
+          />
+          <p>Netflix: As estreias de filmes e séries em novembro</p>
+        </nuxt-link>
       </div>
       <div class="card5">
-        <img
-          src="https://assets1.ignimgs.com/2020/10/21/falcon-deck-1603300057588.png?fit=crop&width=282&height=470"
-          alt=""
-          height="490px"
-          width="300px"
-        />
-        <p>De volta alguns dos personagens MCU 'mais antigos'</p>
+        <nuxt-link to="/Postagem/lancamento">
+          <img
+            src="https://sm.ign.com/t/ign_br/slotter/default/hyrule-warriors-switch-button-fin-1599595486973_3hxe.560.png"
+            alt=""
+            height="490px"
+            width="300px"
+          />
+          <p>Lançamentos de jogos da semana para consoles e PC</p>
+        </nuxt-link>
       </div>
       <div class="card6">
-        <img
-          src="https://assets1.ignimgs.com/2020/10/21/aoc-deck-1603308225333.jpg?fit=crop&width=282&height=470"
-          alt=""
-          height="490px"
-          width="300px"
-        />
-        <p>Twitch Stream da AOC tem implicações para a política dos EUA</p>
+        <nuxt-link to="/Postagem/AOC">
+          <img
+            src="https://assets1.ignimgs.com/2020/10/21/aoc-deck-1603308225333.jpg?fit=crop&width=282&height=470"
+            alt=""
+            height="490px"
+            width="300px"
+          />
+          <p>Twitch Stream da AOC tem implicações para a política dos EUA</p>
+        </nuxt-link>
       </div>
     </div>
   </div>
