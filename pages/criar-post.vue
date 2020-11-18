@@ -45,10 +45,7 @@ export default {
       contentClass: '',
     }
   },
-  async fetch() {
-    const users = await this.$axios.$get('users')
-    this.users = users.sort((a, b) => a.name.localeCompare(b.name))
-  },
+
   methods: {
     ...mapActions({
       showMessage: 'messages/showMessage',
@@ -56,12 +53,6 @@ export default {
 
     save() {
       if (!this.isValid()) return false
-
-      // await this.$axios.$post('posts', {
-      //   title: this.title,
-      //   content: this.content,
-      //   author: this.author,
-      // })
 
       this.title = ''
       this.author = ''

@@ -10,16 +10,16 @@
 
 <script>
 export default {
+  data() {
+    return {
+      post: null,
+    }
+  },
   async fetch() {
     const post = await this.$axios.$get(`posts/${this.$route.params.id}`)
     const user = await this.$axios.$get(`users/${post.author}`)
     post.author = user.name
     this.post = post
-  },
-  data() {
-    return {
-      post: null,
-    }
   },
 }
 </script>

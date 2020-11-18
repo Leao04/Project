@@ -8,7 +8,7 @@
       </div>
 
       <div class="Trabalhe-conosco-formulario">
-        <b-form @submit="onSubmit" @reset="onReset" v-if="show">
+        <b-form v-if="show" @submit="onSubmit" @reset="onReset">
           <b-form-group
             id="input-group-1"
             label="Endereço de email:"
@@ -51,7 +51,7 @@
           </b-form-group>
 
           <b-form-group id="input-group-4">
-            <b-form-checkbox-group v-model="form.checked" id="checkboxes-4">
+            <b-form-checkbox-group id="checkboxes-4" v-model="form.checked">
             </b-form-checkbox-group>
           </b-form-group>
 
