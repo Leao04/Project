@@ -34,10 +34,6 @@
 import { mapActions } from 'vuex'
 
 export default {
-  async fetch() {
-    const users = await this.$axios.$get('users')
-    this.users = users.sort((a, b) => a.name.localeCompare(b.name))
-  },
   data() {
     return {
       users: [],
@@ -48,6 +44,10 @@ export default {
       content: '',
       contentClass: '',
     }
+  },
+  async fetch() {
+    const users = await this.$axios.$get('users')
+    this.users = users.sort((a, b) => a.name.localeCompare(b.name))
   },
   methods: {
     ...mapActions({
