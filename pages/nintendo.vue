@@ -94,72 +94,73 @@
     </div>
     <div class="containerSony">
       <div class="cardsony1">
-        <nuxt-link to="/lançamentos">
+        <nuxt-link to="/control">
           <img
-            src="https://sm.ign.com/t/ign_za/slotter/default/gamewatch-deck-a6071d-1605244161978_sbmk.560.jpg"
+            src="../assets/img/control.jpg"
             alt=""
             height="490px"
             width="300px"
           />
-          <p>Assista & jogue: Super Mario Bros.</p>
+          <p>Control Ultimate Edition – Cloud Version é anunciado</p>
         </nuxt-link>
       </div>
       <div class="cardsony2">
-        <nuxt-link to="/genshin">
+        <nuxt-link to="/postagemNintendo/mario">
           <img
-            src="https://sm.ign.com/t/ign_hu/slotter/default/ac-cover_shsv.560.jpg"
+            src="https://sm.ign.com/t/ign_br/screenshot/default/lego-super-mario_ur2z.320.jpg"
             alt=""
             height="490px"
             width="300px"
           />
-          <p>TESTE: Travessia de Animais: Novos Horizontes</p>
+          <p>Nintendo e LEGO anunciam parceria temática de Super Mario.</p>
         </nuxt-link>
       </div>
       <div class="cardsony3">
-        <nuxt-link to="/desconto">
+        <nuxt-link to="/supermash">
           <img
-            src="https://sm.ign.com/t/ign_br/slotter/default/bloodborne_hnkj.560.jpg"
-            alt=""
-            height="490px"
-            width="300px"
-          />
-          <p>TESTE: Pokémon Sword/Shield</p>
-        </nuxt-link>
-      </div>
-
-      <div class="cardsony4">
-        <nuxt-link to="/">
-          <img
-            src="https://sm.ign.com/t/ign_hu/slotter/default/lite-cover_qbae.560.jpg"
-            alt=""
-            height="490px"
-            width="300px"
-          />
-          <p>TESTE: Nintendo Switch Lite</p>
-        </nuxt-link>
-      </div>
-      <div class="cardsony5">
-        <nuxt-link to="/">
-          <img
-            src="https://sm.ign.com/t/ign_es/slotter/default/diesel-productv2-godfall-home-egs-godfall-counterplaygames-s_2t8z.560.jpg"
+            src="https://upload.wikimedia.org/wikipedia/pt/7/7f/Super_Smash_Bros._Ultimate_capa.png"
             alt=""
             height="490px"
             width="300px"
           />
           <p>
-            A história de Godfall, a lenda que você precisa saber antes de jogar
+            Super Smash Bros Ultimate anuncia Steve de Minecraft como novo
+            lutador.
           </p>
         </nuxt-link>
       </div>
-      <div class="cardsony6">
-        <nuxt-link to="/">
+
+      <div class="cardsony4">
+        <nuxt-link to="/postagemNintendo/temtem">
           <img
-            src="https://sm.ign.com/t/ign_es/slotter/default/mkm_z2d4.560.jpg"
+            src="https://cdn-products.eneba.com/resized-products/TrFkCZK_DA74UI8oCE_RhNud-vZ8st2phptDX1v_Mxw_350x200_1x-0.jpeg"
             alt=""
             height="490px"
             width="300px"
           />
-          <p>Análise do Homem-Aranha da Marvel: Miles Morales para PS5 e PS4</p>
+          <p>Temtem será lançado para Nintendo Switch em 2021.</p>
+        </nuxt-link>
+      </div>
+      <div class="cardsony5">
+        <nuxt-link to="/postagemNintendo/zelda">
+          <img
+            src="https://sm.ign.com/t/ign_br/screenshot/default/hyrule-2_17aj.620.jpg"
+            alt=""
+            height="490px"
+            width="300px"
+          />
+          <p>Zelda: Nintendo anuncia novo Hyrule Warriors.</p>
+        </nuxt-link>
+      </div>
+      <div class="cardsony6">
+        <nuxt-link to="/postagemNintendo/ghostrunner">
+          <img
+            src="https://static-cdn.jtvnw.net/ttv-boxart/Ghostrunner.jpg"
+            alt=""
+            height="490px"
+            width="300px"
+          />
+          <p>Ghostrunner ganha data de lançamento para Nintendo Switch</p>
         </nuxt-link>
       </div>
       <div class="cardsony7">

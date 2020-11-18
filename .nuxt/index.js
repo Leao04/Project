@@ -13,8 +13,8 @@ import { createStore } from './store.js'
 
 /* Plugins */
 
-import nuxt_plugin_plugin_8091837a from 'nuxt_plugin_plugin_8091837a' // Source: .\\components\\plugin.js (mode: 'all')
-import nuxt_plugin_bootstrapvue_fa9351d6 from 'nuxt_plugin_bootstrapvue_fa9351d6' // Source: .\\bootstrap-vue.js (mode: 'all')
+import nuxt_plugin_plugin_f07ac9ae from 'nuxt_plugin_plugin_f07ac9ae' // Source: .\\components\\plugin.js (mode: 'all')
+import nuxt_plugin_bootstrapvue_e1dfd20a from 'nuxt_plugin_bootstrapvue_e1dfd20a' // Source: .\\bootstrap-vue.js (mode: 'all')
 
 // Component: <ClientOnly>
 Vue.component(ClientOnly.name, ClientOnly)
@@ -203,12 +203,12 @@ async function createApp(ssrContext, config = {}) {
   }
   // Plugin execution
 
-  if (typeof nuxt_plugin_plugin_8091837a === 'function') {
-    await nuxt_plugin_plugin_8091837a(app.context, inject)
+  if (typeof nuxt_plugin_plugin_f07ac9ae === 'function') {
+    await nuxt_plugin_plugin_f07ac9ae(app.context, inject)
   }
 
-  if (typeof nuxt_plugin_bootstrapvue_fa9351d6 === 'function') {
-    await nuxt_plugin_bootstrapvue_fa9351d6(app.context, inject)
+  if (typeof nuxt_plugin_bootstrapvue_e1dfd20a === 'function') {
+    await nuxt_plugin_bootstrapvue_e1dfd20a(app.context, inject)
   }
 
   // Lock enablePreview in context
