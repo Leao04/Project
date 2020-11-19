@@ -5,18 +5,18 @@
         <input
           v-model="title"
           type="text"
-          :placeholder="$t.attr('post.title')"
+          :placeholder="$t('post.title')"
           :class="titleClass"
           @input="updatedTitle"
         />
         <select
           v-model="author"
           type="text"
-          :placeholder="$t.attr('post.author')"
+          :placeholder="$t('post.author')"
           :class="authorClass"
           @input="updatedAuthor"
         >
-          <option value="">{{ $t.attr('post.author') }}</option>
+          <option value="">{{ $t('post.author') }}</option>
           <option v-for="user of users" :key="user._id" :value="user._id">
             {{ user.name }}
           </option>
@@ -24,11 +24,11 @@
         <textarea
           v-model="content"
           type="text"
-          :placeholder="$t.attr('post.content')"
+          :placeholder="$t('post.content')"
           :class="contentClass"
           @input="updatedContent"
         />
-        <button>{{ $t.attr('save') }}</button>
+        <button>{{ $t('save') }}</button>
       </form>
     </div>
   </div>
