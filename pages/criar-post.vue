@@ -14,7 +14,7 @@
       :class="authorClass"
       @input="updatedAuthor"
     >
-      <option value="">{{ $t('post.author') }}</option>
+      <option value="">{{ $('post.author') }}</option>
       <option v-for="user of users" :key="user._id" :value="user._id">
         {{ user.name }}
       </option>
@@ -26,7 +26,7 @@
       :class="contentClass"
       @input="updatedContent"
     />
-    <button>{{ $t('save') }}</button>
+    <button>{{ $('save') }}</button>
   </form>
 </template>
 
