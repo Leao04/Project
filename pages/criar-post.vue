@@ -1,33 +1,37 @@
 <template>
-  <form @submit.prevent="save">
-    <input
-      v-model="title"
-      type="text"
-      :placeholder="$t('post.title')"
-      :class="titleClass"
-      @input="updatedTitle"
-    />
-    <select
-      v-model="author"
-      type="text"
-      :placeholder="$t('post.author')"
-      :class="authorClass"
-      @input="updatedAuthor"
-    >
-      <option value="">{{ ('post.author') }}</option>
-      <option v-for="user of users" :key="user._id" :value="user._id">
-        {{ user.name }}
-      </option>
-    </select>
-    <textarea
-      v-model="content"
-      type="text"
-      :placeholder="$t('post.content')"
-      :class="contentClass"
-      @input="updatedContent"
-    />
-    <button>{{ ('save') }}</button>
-  </form>
+  <div>
+    <div>
+      <form @submit.prevent="save">
+        <input
+          v-model="title"
+          type="text"
+          :placeholder="$t.attr('post.title')"
+          :class="titleClass"
+          @input="updatedTitle"
+        />
+        <select
+          v-model="author"
+          type="text"
+          :placeholder="$t.attr('post.author')"
+          :class="authorClass"
+          @input="updatedAuthor"
+        >
+          <option value="">{{ $t.attr('post.author') }}</option>
+          <option v-for="user of users" :key="user._id" :value="user._id">
+            {{ user.name }}
+          </option>
+        </select>
+        <textarea
+          v-model="content"
+          type="text"
+          :placeholder="$t.attr('post.content')"
+          :class="contentClass"
+          @input="updatedContent"
+        />
+        <button>{{ $t.attr('save') }}</button>
+      </form>
+    </div>
+  </div>
 </template>
 
 <script>
@@ -45,7 +49,10 @@ export default {
       contentClass: '',
     }
   },
-
+  async fetch() {
+    const users = await this.$axios.$get('users')
+    this.users = users.sort((a, b) => a.name.localeCompare(b.name))
+  },
   methods: {
     ...mapActions({
       showMessage: 'messages/showMessage',
@@ -53,6 +60,12 @@ export default {
 
     save() {
       if (!this.isValid()) return false
+
+      // await this.$axios.$post('posts', {
+      //   title: this.title,
+      //   content: this.content,
+      //   author: this.author,
+      // })
 
       this.title = ''
       this.author = ''
